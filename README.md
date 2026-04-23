@@ -27,29 +27,29 @@ The project is useful as an educational example of:
 Project Structure
 mini_ETL_project/
 |
-|-- main.py			# Main ETL pipeline controller
-|-- ehr_visit.py		# EHRVisit class definition
+|-- main.py			        # Main ETL pipeline controller
+|-- ehr_visit.py		    # EHRVisit class definition
 |-- ehr_mock_data.csv		# Input dataset (simulated EHR data)
-|-- test_ehr_visit.py  	 	# Unit tests using assert statements
-|-- README.txt     		# Project summary & instruction
+|-- test_ehr_visit.py  	# Unit tests using assert statements
+|-- README.txt     	 	  # Project summary & instruction
 
 Input Data Description
 The program uses a CSV (comma-separated values) file containing 1,000 simulated patient visit records. Each row represents a single healthcare encounter and includes demographic, clinical, and cost-related information.
 
 Data Dictionary
-Column Name	Description			Data Type	Example
-patient_id	Unique patient identifier	Integer		100123
-first_name	Patient first name		String		John
-last_name	Patient last name		String		Doe
-date_of_birth	Patient date of birth		Date (YYYYMMDD)	19780512
-icd10_code	ICD10 diagnosis code		String		J10
-diagnosis_name	Diagnosis description		String		Influenza
-facility	Healthcare facility name	String		City Hospital
-risk_level	Clinical risk category		String		Medium
-specialty	Medical specialty		String		Cardiac
-admission_date	Admission date			Date (YYYYMMDD)	20240602
-length_of_stay	Length of stay in days		Integer		5
-cost		Total visit cost (USD)		Float		3400.75
+Column Name	     Description			           Data Type	       Example
+patient_id	     Unique patient identifier	 Integer		       100123
+first_name	     Patient first name	 	       String		         John
+last_name	       Patient last name		       String		         Doe
+date_of_birth	   Patient date of birth		   Date (YYYYMMDD)	 19780512
+icd10_code	     ICD10 diagnosis code		   String		         J10
+diagnosis_name	 Diagnosis description		   String		         Influenza
+facility	       Healthcare facility name	   String		         City Hospital
+risk_level	     Clinical risk category		   String		         Medium
+specialty	       Medical specialty		       String		         Cardiac
+admission_date	 Admission date			         Date (YYYYMMDD)	 20240602
+length_of_stay	 Length of stay in days		   Integer		       5
+cost		         Total visit cost (USD)	  	 Float		         3400.75
 
 Derived values such as patient age and summary statistics are calculated during program execution.
 
