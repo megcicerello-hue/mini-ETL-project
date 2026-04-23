@@ -1,0 +1,1001 @@
+patient_id,first_name,last_name,date_of_birth,icd10_code,diagnosis_name,facility,risk_level,specialty,admission_date,length_of_stay,cost
+100000,Jane,Smith,1964-09-03,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-07-29,11,11239.68
+100001,Sam,Johnson,1992-12-22,J45,Asthma,City Hospital,Low,Pulmonary,2023-07-11,4,3873.58
+100002,Lee,Smith,1990-05-08,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2025-07-08,10,4533.77
+100003,John,Williams,2002-08-19,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-11-15,4,14379.59
+100004,Pat,Johnson,1948-04-27,J45,Asthma,City Hospital,Medium,Pulmonary,2024-12-05,10,4335.55
+100005,John,Davis,1988-02-09,J10,Influenza,Valley Health,Low,General,2024-08-23,14,9615.28
+100006,Pat,Wilson,1957-04-01,J10,Influenza,City Hospital,High,General,2024-04-11,13,4696.13
+100007,Jane,Brown,1949-01-22,J45,Asthma,Metro Clinic,Medium,Pulmonary,2025-01-17,3,5867.62
+100008,Maria,Jones,2002-12-18,J10,Influenza,Regional Medical Center,High,General,2024-05-16,3,7202.77
+100009,Chris,Lopez,1959-09-14,I10,Hypertension,City Hospital,Low,Cardiac,2023-03-07,13,5074.07
+100010,Chris,Johnson,1958-12-05,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-10-19,7,13327.91
+100011,Jordan,Williams,1963-10-06,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-06-22,12,8976.5
+100012,Lee,Miller,1972-06-22,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-10-07,2,11458.84
+100013,Jane,Williams,1996-04-16,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-05-11,7,6033.48
+100014,Jordan,Lopez,1962-07-22,K21,GERD,City Hospital,High,Gastroenterology,2023-08-23,11,13329.43
+100015,Chris,Garcia,1950-01-03,I10,Hypertension,Valley Health,Low,Cardiac,2025-07-18,1,14330.33
+100016,Chris,Lopez,1956-01-11,K21,GERD,City Hospital,High,Gastroenterology,2024-09-03,14,9764.77
+100017,Lee,Brown,1953-09-17,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-12-22,1,9184.7
+100018,Jordan,Smith,1950-01-13,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-04-29,4,13231.14
+100019,Jane,Johnson,2005-08-30,J45,Asthma,City Hospital,High,Pulmonary,2023-09-15,3,10066.39
+100020,Sam,Williams,1963-10-12,K21,GERD,Valley Health,Low,Gastroenterology,2024-02-16,12,5019.89
+100021,Pat,Davis,1986-06-07,J45,Asthma,City Hospital,Low,Pulmonary,2024-04-05,2,5402.24
+100022,Lee,Lopez,1960-08-23,K21,GERD,Regional Medical Center,Low,Gastroenterology,2023-05-26,12,9650.99
+100023,Maria,Johnson,1942-10-26,I10,Hypertension,City Hospital,High,Cardiac,2024-05-02,5,10200.18
+100024,Maria,Lopez,1951-11-14,K21,GERD,Valley Health,Low,Gastroenterology,2025-08-26,13,6402.37
+100025,Jane,Johnson,1999-02-13,J45,Asthma,Metro Clinic,Medium,Pulmonary,2025-04-21,8,13025.63
+100026,John,Johnson,1945-06-09,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-05-24,4,3258.03
+100027,Jordan,Williams,1977-11-06,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-05-26,14,13887.35
+100028,Jordan,Lopez,1948-10-13,J10,Influenza,City Hospital,Low,General,2024-04-29,3,6393.0
+100029,Jordan,Brown,1975-12-24,J10,Influenza,Regional Medical Center,Medium,General,2023-01-05,7,4345.44
+100030,Jordan,Jones,1977-12-13,K21,GERD,Valley Health,Low,Gastroenterology,2024-01-24,5,3656.66
+100031,John,Wilson,1988-08-22,J10,Influenza,Metro Clinic,Low,General,2023-04-13,10,7413.43
+100032,Sam,Williams,1945-02-06,K21,GERD,City Hospital,Low,Gastroenterology,2023-05-21,10,1485.43
+100033,Maria,Miller,1950-10-03,K21,GERD,Regional Medical Center,High,Gastroenterology,2023-03-23,10,1688.76
+100034,Lee,Wilson,1986-11-25,I10,Hypertension,Metro Clinic,Low,Cardiac,2024-10-05,4,4351.41
+100035,Alex,Jones,1981-01-07,I10,Hypertension,City Hospital,Low,Cardiac,2025-07-27,10,14977.59
+100036,Jane,Johnson,1988-03-26,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2024-12-15,2,13249.42
+100037,Pat,Jones,1954-02-25,J45,Asthma,Metro Clinic,High,Pulmonary,2025-12-19,1,10184.02
+100038,Sam,Jones,1999-07-07,J10,Influenza,Regional Medical Center,Medium,General,2023-08-25,2,11265.04
+100039,Alex,Jones,1965-04-11,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-12-03,4,10468.71
+100040,Chris,Lopez,1983-10-30,I10,Hypertension,City Hospital,Low,Cardiac,2025-05-17,14,4511.86
+100041,John,Garcia,1951-09-26,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-06-23,9,10732.18
+100042,Sam,Smith,1950-01-13,J10,Influenza,Regional Medical Center,High,General,2023-03-15,14,5853.63
+100043,Sam,Williams,1978-07-23,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-01-16,13,14596.85
+100044,John,Garcia,1958-11-05,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-04-12,10,11367.43
+100045,Maria,Williams,1955-11-19,J45,Asthma,City Hospital,Low,Pulmonary,2024-11-11,13,13996.83
+100046,Maria,Jones,1954-04-13,J10,Influenza,Valley Health,Low,General,2025-08-21,4,3393.81
+100047,Jordan,Garcia,1967-05-19,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2024-01-31,7,5259.8
+100048,Jane,Jones,1971-07-03,K21,GERD,Valley Health,High,Gastroenterology,2024-11-09,1,2172.46
+100049,Chris,Williams,1992-02-01,I10,Hypertension,City Hospital,Low,Cardiac,2025-06-08,6,11063.9
+100050,Pat,Miller,1994-05-21,K21,GERD,City Hospital,Medium,Gastroenterology,2024-01-25,5,1143.6
+100051,Taylor,Smith,1986-08-23,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-06-02,2,14258.68
+100052,Pat,Wilson,1968-02-29,J10,Influenza,Metro Clinic,High,General,2024-09-25,11,6421.7
+100053,Taylor,Jones,1989-09-26,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2025-02-15,11,11347.95
+100054,Alex,Wilson,1991-01-21,I10,Hypertension,Valley Health,High,Cardiac,2023-01-01,5,4660.25
+100055,Taylor,Wilson,1994-06-05,I10,Hypertension,Valley Health,Medium,Cardiac,2025-06-24,11,3598.67
+100056,Jordan,Williams,1999-02-09,J10,Influenza,Metro Clinic,High,General,2024-11-17,2,12367.14
+100057,Maria,Jones,1960-02-26,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-04-05,4,14767.07
+100058,Lee,Johnson,1980-11-09,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-02-25,8,6294.97
+100059,Alex,Smith,1949-07-24,J45,Asthma,Regional Medical Center,Low,Pulmonary,2025-11-26,8,1228.17
+100060,Maria,Johnson,1980-12-13,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2025-12-23,9,9134.06
+100061,Jordan,Wilson,2004-07-12,K21,GERD,Valley Health,High,Gastroenterology,2025-07-02,3,11283.0
+100062,Jordan,Davis,1963-04-03,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-09-19,11,3969.07
+100063,Jordan,Johnson,2004-01-06,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-11-18,6,13448.89
+100064,Jane,Williams,1953-07-13,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-11-09,12,3602.32
+100065,Taylor,Miller,1969-09-07,K21,GERD,Valley Health,Medium,Gastroenterology,2023-05-08,4,12576.92
+100066,Taylor,Wilson,2002-05-25,J10,Influenza,Valley Health,Medium,General,2023-01-13,6,4829.88
+100067,Taylor,Miller,1988-04-14,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-03-25,5,6819.62
+100068,John,Miller,1970-02-26,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2023-09-19,10,8244.79
+100069,Taylor,Wilson,1990-08-19,J10,Influenza,City Hospital,High,General,2025-05-27,3,13069.34
+100070,Alex,Smith,1963-05-04,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-07-20,6,5393.76
+100071,Taylor,Jones,1977-10-26,I10,Hypertension,City Hospital,Medium,Cardiac,2023-02-09,12,8321.58
+100072,Pat,Brown,1998-04-29,J10,Influenza,City Hospital,Low,General,2024-05-21,4,12668.82
+100073,Lee,Williams,1961-05-26,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-08-23,10,14242.48
+100074,Jordan,Jones,1973-02-03,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-09-29,2,8890.93
+100075,Chris,Wilson,2000-10-07,J45,Asthma,Valley Health,High,Pulmonary,2024-02-11,2,9085.42
+100076,Maria,Johnson,2002-07-19,I10,Hypertension,City Hospital,High,Cardiac,2023-03-26,6,8224.81
+100077,Pat,Johnson,1985-05-23,I10,Hypertension,City Hospital,Medium,Cardiac,2025-09-30,2,6786.09
+100078,Pat,Davis,2003-06-16,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2025-12-04,11,4416.19
+100079,Sam,Davis,1981-09-14,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-05-17,14,14052.02
+100080,Chris,Davis,1961-11-16,J45,Asthma,Valley Health,Medium,Pulmonary,2023-02-28,8,12838.82
+100081,Alex,Davis,1959-01-11,I10,Hypertension,Metro Clinic,Medium,Cardiac,2024-07-26,10,10667.16
+100082,Chris,Lopez,1940-11-28,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-05-09,12,6393.21
+100083,Sam,Brown,2001-12-15,J45,Asthma,Valley Health,Medium,Pulmonary,2023-02-05,2,4766.42
+100084,Taylor,Brown,1967-06-21,K21,GERD,Metro Clinic,Medium,Gastroenterology,2025-12-23,6,6669.81
+100085,Sam,Garcia,1971-07-25,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-05-29,4,2249.51
+100086,Maria,Garcia,1950-09-22,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-03-19,12,7520.88
+100087,Lee,Lopez,1993-07-16,I10,Hypertension,City Hospital,Low,Cardiac,2024-08-29,4,5732.78
+100088,Chris,Smith,2003-07-09,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-04-04,1,8523.71
+100089,Alex,Davis,1949-03-15,J10,Influenza,Metro Clinic,Medium,General,2025-09-07,8,5440.24
+100090,John,Jones,1982-11-10,J10,Influenza,City Hospital,Medium,General,2025-10-04,2,8866.81
+100091,John,Williams,1953-05-20,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-05-23,2,8592.06
+100092,Taylor,Wilson,1993-06-24,K21,GERD,Regional Medical Center,High,Gastroenterology,2025-02-18,8,13673.31
+100093,Chris,Wilson,1978-06-21,I10,Hypertension,City Hospital,High,Cardiac,2023-07-23,13,3512.92
+100094,Maria,Jones,1999-04-01,J10,Influenza,Regional Medical Center,Low,General,2023-12-22,9,1588.44
+100095,John,Miller,1980-06-01,K21,GERD,Valley Health,Medium,Gastroenterology,2023-03-08,4,4677.52
+100096,Chris,Davis,1946-05-21,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2024-02-10,7,2164.26
+100097,Maria,Williams,1963-10-31,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-12-06,13,4960.37
+100098,Lee,Jones,1979-05-26,J10,Influenza,Valley Health,High,General,2024-09-14,12,6336.37
+100099,Chris,Lopez,1988-06-11,J45,Asthma,Valley Health,Low,Pulmonary,2023-03-23,7,11150.74
+100100,Lee,Jones,1942-04-27,J10,Influenza,Regional Medical Center,High,General,2023-02-12,13,10248.08
+100101,Chris,Wilson,1943-08-11,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2025-06-24,5,3131.59
+100102,Lee,Miller,1996-12-12,J45,Asthma,City Hospital,Medium,Pulmonary,2024-12-13,7,5332.97
+100103,Jane,Williams,1969-08-03,J45,Asthma,Valley Health,Medium,Pulmonary,2025-03-31,14,11527.25
+100104,John,Davis,1947-11-25,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-08-26,13,6360.54
+100105,Sam,Smith,1999-01-01,K21,GERD,Valley Health,Medium,Gastroenterology,2023-04-22,4,8017.37
+100106,Lee,Davis,1996-02-09,J45,Asthma,City Hospital,Low,Pulmonary,2024-06-30,9,2399.69
+100107,Chris,Davis,2002-08-23,J45,Asthma,City Hospital,Low,Pulmonary,2024-05-05,12,2796.48
+100108,Sam,Smith,1989-07-18,J45,Asthma,City Hospital,Low,Pulmonary,2023-08-21,8,14232.38
+100109,Alex,Davis,2004-04-15,I10,Hypertension,Metro Clinic,Medium,Cardiac,2025-09-15,8,4034.1
+100110,Sam,Williams,1974-05-31,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2024-07-19,13,11955.09
+100111,Taylor,Garcia,1985-07-20,I10,Hypertension,City Hospital,Medium,Cardiac,2024-09-03,14,9010.6
+100112,Jordan,Williams,1980-01-23,K21,GERD,Valley Health,Medium,Gastroenterology,2024-11-11,9,11561.65
+100113,Taylor,Davis,1968-11-13,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-02-23,4,12912.19
+100114,Taylor,Smith,1968-07-18,J45,Asthma,Valley Health,Medium,Pulmonary,2023-11-08,8,14489.95
+100115,Alex,Lopez,1992-12-12,I10,Hypertension,City Hospital,Medium,Cardiac,2023-07-24,9,13701.4
+100116,John,Williams,1976-10-12,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2024-06-26,6,9537.26
+100117,Taylor,Johnson,1969-06-23,K21,GERD,Valley Health,Medium,Gastroenterology,2025-09-26,14,8344.73
+100118,Lee,Johnson,1961-01-22,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-07-05,7,14685.9
+100119,Jane,Davis,1954-12-04,I10,Hypertension,City Hospital,Low,Cardiac,2024-10-26,13,1313.73
+100120,Pat,Garcia,1978-08-21,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-04-23,10,10386.11
+100121,Alex,Williams,1955-09-15,J10,Influenza,Valley Health,High,General,2024-05-08,8,13736.02
+100122,Alex,Brown,1981-05-15,I10,Hypertension,Valley Health,Medium,Cardiac,2023-01-20,13,7246.17
+100123,Chris,Lopez,1954-03-04,J10,Influenza,Valley Health,Medium,General,2024-09-04,11,14449.42
+100124,Chris,Davis,1967-02-07,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-08-07,4,6029.78
+100125,Pat,Wilson,1966-07-18,I10,Hypertension,City Hospital,High,Cardiac,2025-03-21,5,617.42
+100126,John,Wilson,1984-07-24,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-12-22,4,9730.96
+100127,Lee,Jones,2000-10-20,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-03-22,5,11934.85
+100128,John,Wilson,1972-09-24,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2024-10-31,12,6524.79
+100129,Maria,Williams,1988-05-23,I10,Hypertension,Metro Clinic,Low,Cardiac,2024-06-10,14,14190.72
+100130,Chris,Garcia,1950-05-01,J45,Asthma,City Hospital,Low,Pulmonary,2024-04-07,14,10306.69
+100131,Taylor,Lopez,1972-10-24,J10,Influenza,Valley Health,Low,General,2024-06-25,9,2292.04
+100132,Pat,Jones,1992-06-10,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-04-23,8,862.86
+100133,Sam,Garcia,1994-09-25,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2025-08-08,12,4881.76
+100134,Taylor,Johnson,1952-07-16,J10,Influenza,City Hospital,Medium,General,2025-10-05,2,1909.28
+100135,Sam,Williams,1974-11-13,J45,Asthma,Metro Clinic,High,Pulmonary,2025-05-08,10,11262.9
+100136,Alex,Miller,1998-10-03,J10,Influenza,Valley Health,High,General,2025-04-15,5,974.39
+100137,Pat,Brown,1979-10-11,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2023-07-23,11,5826.36
+100138,Pat,Smith,1975-09-20,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-07-20,2,10110.15
+100139,Lee,Smith,1944-07-15,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-02-25,2,12532.36
+100140,Sam,Brown,1992-08-09,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2023-10-30,13,13557.7
+100141,John,Jones,1952-12-24,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-08-14,11,13063.49
+100142,Alex,Smith,1972-02-20,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-12-23,5,1259.79
+100143,Taylor,Lopez,1950-03-13,J10,Influenza,Valley Health,Medium,General,2025-01-11,9,9108.16
+100144,Jordan,Lopez,1959-11-16,K21,GERD,City Hospital,High,Gastroenterology,2025-12-03,5,7141.62
+100145,John,Smith,1982-12-21,J45,Asthma,Valley Health,High,Pulmonary,2023-08-10,8,10829.82
+100146,Jordan,Johnson,1947-04-01,I10,Hypertension,Regional Medical Center,Low,Cardiac,2023-09-16,5,9552.6
+100147,Lee,Lopez,2003-11-21,I10,Hypertension,Valley Health,High,Cardiac,2025-12-22,5,7078.87
+100148,Lee,Miller,1948-11-23,J10,Influenza,Regional Medical Center,Medium,General,2025-07-13,4,6500.3
+100149,Jordan,Miller,1977-04-27,J10,Influenza,Metro Clinic,Medium,General,2024-10-02,11,4195.9
+100150,Alex,Davis,1946-01-08,J10,Influenza,City Hospital,Low,General,2025-06-03,2,11296.54
+100151,Pat,Williams,1989-11-30,J10,Influenza,Metro Clinic,High,General,2023-09-08,7,5627.17
+100152,Taylor,Smith,1965-10-21,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-08-01,10,7857.48
+100153,Alex,Davis,1960-02-13,J10,Influenza,Metro Clinic,High,General,2025-01-22,2,11557.78
+100154,Lee,Brown,1978-07-01,K21,GERD,City Hospital,High,Gastroenterology,2024-07-01,1,3116.03
+100155,Chris,Garcia,1971-06-29,J10,Influenza,Regional Medical Center,Low,General,2025-03-31,2,2557.18
+100156,John,Johnson,1987-08-04,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2025-07-18,6,2782.43
+100157,Chris,Garcia,1990-12-02,K21,GERD,City Hospital,Low,Gastroenterology,2023-11-15,3,11439.32
+100158,John,Johnson,1964-05-30,J45,Asthma,Valley Health,Medium,Pulmonary,2025-06-24,7,4460.92
+100159,Sam,Johnson,1970-12-19,J45,Asthma,City Hospital,Medium,Pulmonary,2025-09-23,9,10173.42
+100160,John,Brown,1975-06-17,K21,GERD,City Hospital,Low,Gastroenterology,2024-02-23,5,14207.2
+100161,Alex,Jones,1965-12-19,I10,Hypertension,City Hospital,Low,Cardiac,2025-10-15,12,6744.5
+100162,Alex,Miller,1987-10-12,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-03-24,14,11259.6
+100163,Taylor,Smith,1981-03-31,J10,Influenza,Metro Clinic,High,General,2025-05-29,10,6364.13
+100164,Taylor,Jones,1950-05-02,J45,Asthma,City Hospital,Medium,Pulmonary,2023-12-18,13,14240.41
+100165,Jordan,Garcia,1947-11-27,J45,Asthma,City Hospital,Low,Pulmonary,2025-06-11,10,6306.52
+100166,Jane,Miller,1967-11-02,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2023-12-11,2,7902.01
+100167,Jane,Lopez,1985-10-01,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2023-10-30,4,1990.67
+100168,Chris,Brown,1955-07-26,K21,GERD,Regional Medical Center,High,Gastroenterology,2023-06-04,3,14293.74
+100169,Jordan,Davis,1990-07-29,K21,GERD,Valley Health,High,Gastroenterology,2024-10-23,14,14579.11
+100170,Pat,Williams,1979-06-15,J10,Influenza,Valley Health,Medium,General,2024-09-12,13,4482.77
+100171,John,Garcia,1985-07-07,J10,Influenza,Metro Clinic,Medium,General,2025-07-14,1,1324.91
+100172,Chris,Johnson,1997-11-01,J10,Influenza,Valley Health,Medium,General,2023-03-26,8,13681.22
+100173,Lee,Brown,1968-11-04,K21,GERD,Valley Health,High,Gastroenterology,2023-11-05,1,7032.59
+100174,Pat,Johnson,1985-04-07,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-06-15,8,8098.99
+100175,Lee,Williams,1972-08-24,I10,Hypertension,Metro Clinic,Medium,Cardiac,2025-04-17,13,5406.32
+100176,Lee,Smith,1996-08-06,I10,Hypertension,City Hospital,Medium,Cardiac,2023-07-13,9,10336.5
+100177,Chris,Jones,2004-12-05,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-06-16,10,10122.38
+100178,Pat,Jones,1998-11-09,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-06-23,5,8604.37
+100179,Pat,Williams,2000-02-13,K21,GERD,City Hospital,High,Gastroenterology,2025-05-17,9,5746.51
+100180,Pat,Jones,1956-03-03,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-01-29,4,14999.66
+100181,Alex,Johnson,1966-07-15,J10,Influenza,City Hospital,High,General,2024-11-20,13,9461.46
+100182,Lee,Miller,1953-11-02,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2023-12-06,12,6846.26
+100183,Taylor,Garcia,2000-09-05,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2024-08-06,13,11353.78
+100184,Jordan,Brown,1987-11-28,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-02-02,6,10335.45
+100185,Lee,Davis,1981-06-02,I10,Hypertension,Valley Health,High,Cardiac,2025-12-16,7,14510.89
+100186,Maria,Wilson,1952-06-01,I10,Hypertension,City Hospital,High,Cardiac,2025-09-11,14,5882.58
+100187,Jane,Lopez,1951-03-09,I10,Hypertension,City Hospital,Low,Cardiac,2024-07-12,8,13626.94
+100188,Alex,Miller,1948-03-24,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-02-24,7,1272.22
+100189,Sam,Garcia,1961-02-24,J45,Asthma,City Hospital,Medium,Pulmonary,2024-04-04,1,5120.93
+100190,Jane,Garcia,1953-02-06,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-08-25,12,12551.1
+100191,Jordan,Davis,1995-03-16,J10,Influenza,City Hospital,Low,General,2024-06-08,4,12606.96
+100192,Sam,Wilson,1987-05-08,J45,Asthma,City Hospital,Medium,Pulmonary,2024-05-01,5,2266.8
+100193,Maria,Miller,1997-04-28,K21,GERD,Valley Health,Low,Gastroenterology,2023-08-16,14,13624.63
+100194,Lee,Lopez,1941-06-22,K21,GERD,Regional Medical Center,High,Gastroenterology,2023-10-22,5,6723.96
+100195,Lee,Garcia,1961-07-31,K21,GERD,Valley Health,Low,Gastroenterology,2023-06-25,9,14632.49
+100196,Jane,Lopez,1988-10-23,K21,GERD,City Hospital,Medium,Gastroenterology,2025-08-20,1,9717.23
+100197,Pat,Jones,1941-06-16,I10,Hypertension,City Hospital,Medium,Cardiac,2024-05-08,12,10028.01
+100198,Jane,Wilson,2005-12-15,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-12-22,9,5408.94
+100199,Alex,Davis,2002-05-21,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-05-10,12,11754.76
+100200,Jordan,Smith,1966-04-29,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-03-27,6,14033.88
+100201,Sam,Miller,1988-09-19,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-01-27,5,5676.13
+100202,John,Garcia,1964-07-05,J10,Influenza,Metro Clinic,Medium,General,2025-03-30,12,6876.18
+100203,Taylor,Garcia,1956-10-04,J45,Asthma,Valley Health,Medium,Pulmonary,2025-11-29,5,12116.65
+100204,Taylor,Johnson,1978-08-19,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-08-24,6,1987.67
+100205,Pat,Jones,1967-07-01,J45,Asthma,Valley Health,Low,Pulmonary,2025-06-28,6,6983.38
+100206,Pat,Wilson,1979-01-08,I10,Hypertension,City Hospital,Low,Cardiac,2025-04-11,6,7939.75
+100207,Alex,Smith,1952-10-22,K21,GERD,Valley Health,Low,Gastroenterology,2023-09-16,2,3921.93
+100208,Pat,Garcia,1974-05-07,K21,GERD,City Hospital,High,Gastroenterology,2023-11-11,11,7023.88
+100209,Pat,Garcia,1979-10-30,J10,Influenza,Regional Medical Center,High,General,2025-01-21,7,5058.59
+100210,Chris,Brown,1950-03-06,J10,Influenza,Regional Medical Center,Medium,General,2025-11-26,7,13746.37
+100211,Jane,Jones,1963-05-09,J45,Asthma,Regional Medical Center,High,Pulmonary,2024-08-07,12,13788.94
+100212,Jordan,Brown,1951-01-01,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-12-20,12,6954.11
+100213,Jane,Garcia,1999-11-30,I10,Hypertension,City Hospital,High,Cardiac,2024-08-17,5,12844.75
+100214,Alex,Garcia,1985-08-22,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-10-12,4,11960.41
+100215,John,Garcia,1989-09-14,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-09-23,10,13321.57
+100216,Jane,Jones,1975-09-20,J45,Asthma,Valley Health,Medium,Pulmonary,2023-06-01,3,14599.51
+100217,Jane,Davis,1981-10-16,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-01-08,13,14510.84
+100218,Taylor,Lopez,1944-12-20,J10,Influenza,Regional Medical Center,Medium,General,2023-12-04,3,5178.58
+100219,Maria,Garcia,1986-07-21,I10,Hypertension,City Hospital,Medium,Cardiac,2024-02-07,11,14367.1
+100220,Chris,Williams,1996-01-27,I10,Hypertension,City Hospital,High,Cardiac,2023-12-12,10,14153.3
+100221,Alex,Williams,1999-02-05,K21,GERD,Metro Clinic,High,Gastroenterology,2023-03-26,14,13024.83
+100222,Jane,Smith,1997-07-19,K21,GERD,Metro Clinic,High,Gastroenterology,2024-03-07,13,8795.99
+100223,Lee,Smith,1984-09-05,K21,GERD,Metro Clinic,High,Gastroenterology,2024-09-10,8,4050.73
+100224,Taylor,Jones,1980-09-08,J10,Influenza,City Hospital,Low,General,2025-06-19,7,7521.64
+100225,Maria,Garcia,1994-06-05,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2024-10-15,12,14826.34
+100226,Pat,Miller,1951-09-24,I10,Hypertension,City Hospital,Medium,Cardiac,2024-05-10,8,2276.57
+100227,Jordan,Brown,1952-08-21,J10,Influenza,City Hospital,Medium,General,2025-02-25,14,9422.97
+100228,Maria,Williams,1969-05-17,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-11-23,8,14941.56
+100229,Jordan,Davis,1967-09-06,J45,Asthma,City Hospital,Low,Pulmonary,2025-03-16,9,7129.84
+100230,Maria,Brown,1992-05-02,I10,Hypertension,City Hospital,Low,Cardiac,2024-07-30,8,9164.02
+100231,Jordan,Jones,1988-02-24,J10,Influenza,City Hospital,Medium,General,2023-10-02,5,11048.87
+100232,Taylor,Garcia,1944-01-22,J45,Asthma,City Hospital,High,Pulmonary,2024-02-03,6,8521.73
+100233,Jane,Miller,1985-03-28,J45,Asthma,Metro Clinic,High,Pulmonary,2023-09-01,3,14638.7
+100234,Taylor,Garcia,1970-06-03,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-02-12,10,7882.28
+100235,Sam,Smith,1944-01-24,J10,Influenza,Regional Medical Center,High,General,2024-11-13,13,7369.29
+100236,Jordan,Williams,1994-05-22,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-10-14,3,6197.84
+100237,Lee,Jones,1993-04-07,I10,Hypertension,Valley Health,High,Cardiac,2024-09-05,8,12328.36
+100238,Pat,Garcia,2000-06-13,J10,Influenza,Valley Health,High,General,2024-09-22,13,13532.12
+100239,John,Wilson,1982-07-30,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-04-16,10,7466.51
+100240,Sam,Wilson,1974-02-09,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-08-14,4,774.59
+100241,Pat,Miller,1953-08-02,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2025-10-24,13,9366.43
+100242,Jordan,Smith,2003-04-26,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-10-27,11,7436.38
+100243,Taylor,Garcia,1955-07-15,J45,Asthma,Metro Clinic,High,Pulmonary,2024-12-26,11,11693.85
+100244,Chris,Wilson,1983-06-09,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2024-09-03,4,14151.54
+100245,Chris,Jones,2003-03-29,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2025-09-09,6,8627.07
+100246,Chris,Jones,1950-12-07,K21,GERD,Valley Health,Medium,Gastroenterology,2024-12-07,13,12166.93
+100247,Chris,Smith,1965-10-21,J10,Influenza,Metro Clinic,Medium,General,2024-06-09,12,7446.65
+100248,Maria,Lopez,1964-04-28,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-08-12,10,11242.92
+100249,Maria,Brown,1944-07-21,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-04-21,1,1952.87
+100250,Pat,Davis,1949-01-07,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-11-20,7,9966.95
+100251,Jordan,Davis,1998-05-12,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-08-07,11,1357.86
+100252,Jane,Wilson,1960-10-31,K21,GERD,City Hospital,Low,Gastroenterology,2025-05-05,14,3048.94
+100253,John,Miller,1984-06-10,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-01-19,5,8735.45
+100254,Jane,Garcia,1965-07-12,J45,Asthma,Valley Health,Low,Pulmonary,2025-10-29,8,4456.14
+100255,Jane,Garcia,1954-07-30,J45,Asthma,Metro Clinic,High,Pulmonary,2024-01-17,1,11180.96
+100256,Chris,Wilson,2000-07-02,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-04-10,14,6701.7
+100257,Pat,Johnson,1975-12-17,J10,Influenza,Regional Medical Center,Low,General,2025-09-04,6,14069.47
+100258,John,Jones,1974-05-30,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2024-11-06,5,8945.68
+100259,Lee,Smith,1963-06-19,I10,Hypertension,Regional Medical Center,Low,Cardiac,2023-08-31,8,4948.69
+100260,Taylor,Lopez,2003-02-13,I10,Hypertension,City Hospital,High,Cardiac,2024-08-27,6,9412.07
+100261,Maria,Williams,1982-11-25,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2025-02-04,7,10678.14
+100262,Jordan,Lopez,1999-07-31,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2023-06-17,9,6977.85
+100263,Pat,Johnson,1990-08-12,J10,Influenza,City Hospital,High,General,2025-11-01,4,8804.17
+100264,Alex,Williams,1969-06-08,K21,GERD,Valley Health,Low,Gastroenterology,2024-02-25,12,8955.64
+100265,Jane,Lopez,1979-12-19,J10,Influenza,Valley Health,Low,General,2025-11-17,7,7123.58
+100266,John,Lopez,1981-06-25,I10,Hypertension,City Hospital,Medium,Cardiac,2024-06-05,14,543.72
+100267,Maria,Wilson,1946-07-21,J10,Influenza,Valley Health,Medium,General,2023-05-11,9,14914.79
+100268,Jane,Davis,1942-11-05,I10,Hypertension,Valley Health,Low,Cardiac,2023-10-05,13,9802.11
+100269,Taylor,Garcia,1974-04-25,J45,Asthma,Valley Health,Medium,Pulmonary,2023-06-14,11,14480.09
+100270,Sam,Williams,1998-08-19,I10,Hypertension,City Hospital,Low,Cardiac,2025-03-15,9,2346.53
+100271,Maria,Smith,1942-01-14,I10,Hypertension,Valley Health,High,Cardiac,2025-05-18,9,5999.51
+100272,Maria,Brown,1981-04-28,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-01-22,12,11599.6
+100273,John,Miller,1995-03-02,J10,Influenza,Regional Medical Center,Low,General,2023-05-18,2,9112.19
+100274,Jordan,Wilson,2000-04-15,J10,Influenza,Regional Medical Center,High,General,2023-04-01,7,6864.96
+100275,Sam,Brown,1945-01-23,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2024-10-15,10,9169.81
+100276,Pat,Brown,1967-01-27,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2024-09-07,5,1383.89
+100277,Lee,Williams,1996-02-28,J45,Asthma,Valley Health,Low,Pulmonary,2024-12-06,11,10234.47
+100278,Sam,Garcia,2002-06-20,J45,Asthma,Valley Health,Low,Pulmonary,2024-09-06,7,3166.25
+100279,Sam,Davis,1961-08-14,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2023-10-23,13,7213.86
+100280,John,Lopez,1977-01-08,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-05-12,5,3448.38
+100281,Jane,Davis,1973-04-16,J10,Influenza,Regional Medical Center,Low,General,2024-07-03,7,10268.24
+100282,Lee,Smith,1946-07-12,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2024-03-03,14,13651.98
+100283,Chris,Smith,1959-01-01,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2025-09-07,4,10586.58
+100284,Maria,Miller,1961-06-21,K21,GERD,Metro Clinic,Medium,Gastroenterology,2025-02-18,8,8237.93
+100285,Pat,Jones,1963-06-19,I10,Hypertension,Valley Health,Medium,Cardiac,2023-07-21,13,14729.12
+100286,Jordan,Garcia,1958-03-23,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-04-04,10,13029.23
+100287,Alex,Smith,1963-05-25,K21,GERD,Valley Health,Medium,Gastroenterology,2023-11-09,4,5283.05
+100288,Taylor,Wilson,1962-01-17,J45,Asthma,Metro Clinic,Medium,Pulmonary,2025-09-27,12,9804.57
+100289,Jordan,Davis,1955-02-03,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-09-27,3,13795.04
+100290,Sam,Smith,1987-01-02,J10,Influenza,City Hospital,High,General,2023-04-10,13,592.57
+100291,Alex,Brown,1946-02-05,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-11-01,8,5911.41
+100292,Lee,Wilson,1983-05-08,J45,Asthma,City Hospital,Low,Pulmonary,2025-12-25,9,6464.41
+100293,John,Lopez,2004-10-15,I10,Hypertension,Metro Clinic,Low,Cardiac,2025-10-25,14,10618.96
+100294,Taylor,Williams,1949-08-07,J10,Influenza,Regional Medical Center,Low,General,2024-01-29,10,8133.61
+100295,Pat,Jones,1975-08-10,J10,Influenza,Metro Clinic,Medium,General,2025-07-29,10,4026.51
+100296,Maria,Jones,2001-05-14,J10,Influenza,City Hospital,Low,General,2025-04-10,7,5968.96
+100297,Jordan,Smith,1997-02-14,J10,Influenza,Regional Medical Center,Low,General,2025-10-20,14,6791.69
+100298,Pat,Wilson,1948-07-21,K21,GERD,City Hospital,Low,Gastroenterology,2024-03-08,14,10538.17
+100299,Lee,Davis,1964-04-27,J10,Influenza,City Hospital,High,General,2024-07-28,9,8670.89
+100300,John,Williams,1968-03-19,J10,Influenza,Regional Medical Center,High,General,2023-10-23,13,12400.02
+100301,Taylor,Johnson,1966-11-06,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-03-07,11,13499.62
+100302,Pat,Miller,1952-07-21,J10,Influenza,Metro Clinic,Low,General,2023-07-20,7,3866.09
+100303,Jane,Garcia,1994-04-17,K21,GERD,Valley Health,Medium,Gastroenterology,2023-03-02,11,4463.24
+100304,Jordan,Davis,1960-06-19,I10,Hypertension,Valley Health,Medium,Cardiac,2024-01-16,11,8995.19
+100305,Taylor,Johnson,1995-07-01,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-05-31,2,4385.59
+100306,Taylor,Williams,1974-12-15,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-07-07,1,14172.92
+100307,Jordan,Garcia,1964-03-14,J10,Influenza,Regional Medical Center,Low,General,2024-01-19,7,7008.23
+100308,Sam,Lopez,1976-08-09,J10,Influenza,City Hospital,Low,General,2024-12-25,9,1849.43
+100309,Lee,Garcia,1974-07-24,J10,Influenza,Metro Clinic,Medium,General,2025-03-05,13,1728.14
+100310,Sam,Brown,1991-04-24,K21,GERD,Regional Medical Center,High,Gastroenterology,2025-02-18,3,2513.18
+100311,Chris,Jones,1984-03-28,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-06-09,5,6605.98
+100312,Jordan,Johnson,1972-05-25,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-10-12,10,9441.7
+100313,Jordan,Johnson,1952-02-26,I10,Hypertension,City Hospital,Medium,Cardiac,2024-11-11,14,9492.79
+100314,Pat,Davis,1970-01-11,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-10-18,10,14235.54
+100315,Maria,Davis,1968-03-09,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2024-08-19,12,10576.89
+100316,Jordan,Wilson,1961-09-30,I10,Hypertension,Valley Health,Medium,Cardiac,2025-03-15,6,2151.37
+100317,Lee,Brown,1993-02-17,K21,GERD,Regional Medical Center,High,Gastroenterology,2023-02-25,12,7193.52
+100318,Maria,Davis,1966-02-19,J10,Influenza,Valley Health,High,General,2025-10-19,3,9683.37
+100319,Maria,Jones,1999-02-03,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-06-01,8,14865.16
+100320,Jordan,Wilson,1975-12-16,K21,GERD,Valley Health,High,Gastroenterology,2023-03-17,13,14542.21
+100321,Sam,Wilson,1997-04-02,J10,Influenza,City Hospital,Low,General,2024-12-28,3,9881.5
+100322,John,Wilson,1997-11-13,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-08-05,1,1929.8
+100323,Maria,Lopez,1986-07-17,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-02-05,7,7214.42
+100324,Lee,Lopez,1953-07-10,I10,Hypertension,City Hospital,Medium,Cardiac,2023-08-03,5,6531.64
+100325,Jane,Johnson,2005-07-03,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-12-03,8,11871.91
+100326,Sam,Davis,1971-04-01,J45,Asthma,City Hospital,Medium,Pulmonary,2025-07-15,6,1474.03
+100327,John,Johnson,1942-01-10,I10,Hypertension,City Hospital,High,Cardiac,2023-12-03,12,4036.74
+100328,Alex,Lopez,1954-05-14,I10,Hypertension,Valley Health,Medium,Cardiac,2024-04-19,13,6373.19
+100329,Alex,Williams,1997-06-17,J45,Asthma,Valley Health,Low,Pulmonary,2024-02-09,8,9086.95
+100330,Taylor,Smith,2003-03-23,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2023-05-09,10,1975.4
+100331,Sam,Williams,1972-10-25,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2023-08-22,5,10225.17
+100332,Jordan,Lopez,1997-05-03,I10,Hypertension,Valley Health,High,Cardiac,2025-03-14,10,2156.37
+100333,Pat,Davis,1995-05-21,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2023-06-23,11,2442.24
+100334,Jane,Brown,1967-05-25,J10,Influenza,Regional Medical Center,Medium,General,2023-10-17,9,6132.72
+100335,Lee,Williams,1991-07-27,J45,Asthma,Valley Health,Low,Pulmonary,2025-09-23,11,8292.0
+100336,Alex,Lopez,1954-12-20,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-01-19,6,12708.79
+100337,Lee,Smith,1972-03-17,J10,Influenza,Valley Health,Low,General,2024-02-04,14,6067.19
+100338,Sam,Lopez,1998-08-03,J45,Asthma,Valley Health,High,Pulmonary,2025-10-04,7,10797.06
+100339,Jordan,Davis,1955-01-02,J10,Influenza,City Hospital,Low,General,2024-08-21,1,4485.37
+100340,Sam,Jones,1955-02-02,J45,Asthma,Valley Health,High,Pulmonary,2025-11-12,2,8804.35
+100341,Chris,Lopez,1972-11-29,K21,GERD,City Hospital,High,Gastroenterology,2025-06-22,9,3668.86
+100342,Taylor,Johnson,1998-08-23,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-07-10,5,5554.37
+100343,Jane,Davis,1950-07-13,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-12-19,14,10805.93
+100344,Taylor,Williams,1995-04-12,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-05-02,10,5586.82
+100345,Chris,Wilson,1988-05-02,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2024-08-22,5,8804.67
+100346,Sam,Johnson,1952-02-29,J45,Asthma,City Hospital,Medium,Pulmonary,2023-09-17,12,13058.14
+100347,Maria,Williams,2003-10-27,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-03-15,8,2561.49
+100348,Chris,Miller,1973-08-28,J45,Asthma,City Hospital,High,Pulmonary,2023-07-10,7,7976.4
+100349,Chris,Garcia,1980-10-16,J45,Asthma,Metro Clinic,High,Pulmonary,2023-01-06,14,11724.96
+100350,Jane,Davis,1996-12-14,I10,Hypertension,City Hospital,High,Cardiac,2025-03-25,4,14537.86
+100351,Maria,Davis,1964-02-03,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-09-25,10,12860.13
+100352,Pat,Smith,1944-02-14,J10,Influenza,Valley Health,Low,General,2023-09-12,14,2790.76
+100353,Jordan,Smith,1978-05-19,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-09-10,3,13179.14
+100354,Chris,Johnson,1998-09-22,I10,Hypertension,Metro Clinic,Low,Cardiac,2025-01-31,11,13605.1
+100355,Alex,Smith,1975-07-23,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2023-07-06,12,1880.16
+100356,Maria,Davis,1946-12-28,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-06-30,1,616.91
+100357,Pat,Johnson,1977-11-20,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2024-04-13,7,1795.3
+100358,Jane,Johnson,1968-02-10,I10,Hypertension,Metro Clinic,Low,Cardiac,2025-02-22,13,12293.83
+100359,Alex,Williams,1946-02-19,K21,GERD,City Hospital,High,Gastroenterology,2023-12-03,8,5592.22
+100360,Maria,Williams,1976-12-07,K21,GERD,Valley Health,Low,Gastroenterology,2023-06-27,2,2530.19
+100361,Jane,Wilson,2005-06-28,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-10-06,13,2527.54
+100362,Chris,Johnson,1962-04-06,K21,GERD,Metro Clinic,High,Gastroenterology,2023-02-24,14,12782.52
+100363,Chris,Brown,1986-06-13,K21,GERD,Regional Medical Center,High,Gastroenterology,2025-03-13,5,9869.46
+100364,Maria,Davis,1974-08-14,J10,Influenza,Regional Medical Center,Medium,General,2023-05-26,9,13386.51
+100365,John,Garcia,1968-05-23,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2025-05-11,6,8422.17
+100366,Alex,Davis,1946-07-19,J10,Influenza,City Hospital,Low,General,2024-06-20,4,1077.49
+100367,John,Miller,1985-06-13,I10,Hypertension,Valley Health,Medium,Cardiac,2025-04-03,2,9787.79
+100368,Sam,Wilson,1953-09-12,I10,Hypertension,City Hospital,Medium,Cardiac,2023-06-11,9,13853.41
+100369,Alex,Lopez,1969-04-24,J45,Asthma,City Hospital,Medium,Pulmonary,2025-06-14,12,14324.71
+100370,Maria,Smith,1961-12-07,J10,Influenza,Valley Health,Low,General,2025-07-17,10,9328.07
+100371,Chris,Williams,1950-09-18,J10,Influenza,Regional Medical Center,High,General,2023-01-24,3,7697.99
+100372,Pat,Lopez,1986-05-27,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2023-09-17,12,11826.3
+100373,Chris,Johnson,1942-08-19,I10,Hypertension,Valley Health,Medium,Cardiac,2025-12-08,2,4312.77
+100374,Lee,Johnson,1984-07-05,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-10-20,14,8719.85
+100375,Pat,Williams,1962-11-20,J10,Influenza,City Hospital,Low,General,2025-11-08,1,1138.55
+100376,John,Brown,1944-02-15,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-11-04,3,14001.82
+100377,John,Lopez,2004-01-22,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-05-23,7,13779.89
+100378,Pat,Jones,1946-12-27,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-10-25,11,13578.14
+100379,Alex,Brown,1986-04-09,J10,Influenza,Valley Health,Low,General,2025-08-10,14,4593.45
+100380,Chris,Garcia,1947-10-01,K21,GERD,Valley Health,Low,Gastroenterology,2025-01-25,4,4728.13
+100381,Chris,Wilson,1961-10-05,J45,Asthma,Metro Clinic,High,Pulmonary,2025-10-07,13,11750.35
+100382,Sam,Brown,1953-07-04,J10,Influenza,Valley Health,Low,General,2024-04-22,9,5523.14
+100383,John,Garcia,1940-02-17,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-02-25,9,14755.18
+100384,Taylor,Davis,1945-05-16,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-03-31,4,13510.67
+100385,Sam,Miller,2002-11-16,I10,Hypertension,Valley Health,High,Cardiac,2023-06-23,10,1885.87
+100386,Alex,Miller,1946-09-18,K21,GERD,City Hospital,Medium,Gastroenterology,2023-09-25,4,4729.3
+100387,Pat,Miller,2002-11-12,I10,Hypertension,Metro Clinic,Medium,Cardiac,2024-07-10,4,1582.97
+100388,Maria,Williams,1992-06-15,J10,Influenza,Regional Medical Center,Low,General,2023-12-03,8,7257.8
+100389,Taylor,Johnson,1988-01-30,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-09-23,8,4342.61
+100390,Jane,Johnson,1954-02-20,I10,Hypertension,City Hospital,Low,Cardiac,2024-11-02,3,1822.59
+100391,Maria,Garcia,1975-07-20,K21,GERD,City Hospital,High,Gastroenterology,2024-09-04,5,12391.3
+100392,Alex,Smith,1976-04-12,J45,Asthma,Regional Medical Center,Low,Pulmonary,2025-08-04,2,12156.5
+100393,Alex,Johnson,1941-01-26,J10,Influenza,Regional Medical Center,Low,General,2024-02-10,14,6308.44
+100394,Jane,Wilson,1992-07-31,I10,Hypertension,City Hospital,Low,Cardiac,2023-05-13,4,13586.19
+100395,Jordan,Williams,1948-04-01,I10,Hypertension,City Hospital,Low,Cardiac,2025-08-02,1,2935.84
+100396,Lee,Miller,2004-12-28,J45,Asthma,Valley Health,Low,Pulmonary,2025-02-22,11,6686.63
+100397,Pat,Brown,1956-10-15,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-11-01,1,9404.55
+100398,Lee,Brown,1998-01-26,I10,Hypertension,Valley Health,Medium,Cardiac,2025-09-08,1,1771.96
+100399,Taylor,Williams,1977-08-11,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2023-02-09,7,11837.78
+100400,Pat,Davis,1988-11-06,J45,Asthma,Metro Clinic,High,Pulmonary,2025-10-25,6,6131.53
+100401,Alex,Smith,1968-08-09,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-07-29,1,12225.48
+100402,Jordan,Lopez,1972-01-25,K21,GERD,Regional Medical Center,Low,Gastroenterology,2023-07-25,4,10024.53
+100403,Chris,Lopez,1945-01-06,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-12-22,3,3929.99
+100404,Pat,Garcia,1993-01-26,J10,Influenza,Metro Clinic,High,General,2023-10-19,10,14251.34
+100405,Jordan,Lopez,1967-09-23,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2023-07-04,1,3873.04
+100406,Maria,Smith,1987-03-25,J45,Asthma,City Hospital,Medium,Pulmonary,2024-02-17,13,2392.1
+100407,Alex,Garcia,1945-05-05,J10,Influenza,Regional Medical Center,High,General,2023-10-18,13,2108.35
+100408,Sam,Garcia,1946-07-04,I10,Hypertension,Valley Health,High,Cardiac,2023-07-26,6,4875.59
+100409,Alex,Williams,2005-09-13,J45,Asthma,Valley Health,High,Pulmonary,2024-10-11,3,10754.15
+100410,Sam,Wilson,1972-01-05,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2024-09-20,12,10483.23
+100411,Alex,Williams,2005-05-21,J10,Influenza,Valley Health,High,General,2023-03-08,3,9234.64
+100412,Lee,Brown,1997-05-20,K21,GERD,City Hospital,Medium,Gastroenterology,2023-10-16,6,11307.48
+100413,Maria,Garcia,1968-08-30,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2024-11-18,8,665.24
+100414,Maria,Brown,2002-03-09,J10,Influenza,Metro Clinic,Medium,General,2023-08-10,12,518.58
+100415,Taylor,Davis,2005-09-21,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2025-10-06,7,5592.85
+100416,Taylor,Johnson,1983-01-06,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-07-13,2,12088.32
+100417,John,Jones,1941-10-19,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-06-01,6,2966.53
+100418,Taylor,Williams,2005-09-01,J10,Influenza,City Hospital,Medium,General,2025-09-15,12,949.4
+100419,Alex,Wilson,1978-12-14,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-11-09,4,14628.78
+100420,Taylor,Lopez,2004-10-10,K21,GERD,Metro Clinic,High,Gastroenterology,2024-07-30,5,3944.45
+100421,John,Miller,1991-04-18,K21,GERD,Valley Health,Low,Gastroenterology,2023-04-22,6,555.33
+100422,Jane,Jones,1999-05-24,K21,GERD,Valley Health,Low,Gastroenterology,2023-07-18,1,3500.82
+100423,Chris,Johnson,1982-06-26,J10,Influenza,Metro Clinic,Medium,General,2025-08-22,8,13475.72
+100424,Chris,Johnson,1997-08-01,K21,GERD,Valley Health,Low,Gastroenterology,2025-01-29,7,5856.32
+100425,Jordan,Smith,1963-08-15,J45,Asthma,Valley Health,Medium,Pulmonary,2024-04-08,14,4394.15
+100426,John,Williams,2002-06-25,J10,Influenza,City Hospital,High,General,2024-12-05,13,8351.01
+100427,Lee,Brown,1989-08-31,J10,Influenza,Valley Health,High,General,2025-05-07,9,10462.49
+100428,Jordan,Wilson,1961-02-20,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-03-19,14,10857.43
+100429,Sam,Wilson,1986-05-14,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-07-08,3,14261.39
+100430,Alex,Brown,1957-04-16,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-06-10,11,6813.2
+100431,Alex,Wilson,1963-02-19,I10,Hypertension,City Hospital,Low,Cardiac,2025-03-05,9,6261.65
+100432,Pat,Jones,1986-08-16,J45,Asthma,City Hospital,High,Pulmonary,2025-12-06,13,6584.11
+100433,Taylor,Williams,1953-04-18,K21,GERD,City Hospital,Low,Gastroenterology,2023-07-26,13,4648.35
+100434,Sam,Garcia,1976-11-11,I10,Hypertension,Valley Health,High,Cardiac,2025-09-21,10,9329.95
+100435,John,Williams,1964-09-15,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-04-02,1,6238.99
+100436,Pat,Brown,1944-06-03,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-02-11,6,12352.1
+100437,Chris,Jones,1965-02-24,J45,Asthma,City Hospital,Low,Pulmonary,2023-10-03,5,14626.18
+100438,Jordan,Garcia,1964-03-03,J45,Asthma,City Hospital,Low,Pulmonary,2025-06-23,4,13744.78
+100439,Taylor,Davis,1986-05-03,I10,Hypertension,City Hospital,High,Cardiac,2023-11-22,2,5011.28
+100440,Sam,Miller,1952-03-02,K21,GERD,City Hospital,Low,Gastroenterology,2024-01-30,14,3410.54
+100441,John,Brown,1942-12-19,J45,Asthma,City Hospital,Medium,Pulmonary,2024-02-12,5,5841.1
+100442,Jordan,Lopez,1975-08-12,J10,Influenza,City Hospital,Low,General,2025-02-01,8,9113.63
+100443,Alex,Davis,1992-08-25,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-12-01,14,13470.13
+100444,Jane,Jones,1942-06-18,J45,Asthma,City Hospital,Low,Pulmonary,2024-03-14,14,3709.59
+100445,Maria,Brown,1964-02-21,J45,Asthma,City Hospital,High,Pulmonary,2023-01-19,8,13716.97
+100446,Alex,Wilson,1940-10-04,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2024-09-17,12,14521.85
+100447,Chris,Miller,1973-10-10,I10,Hypertension,Valley Health,Medium,Cardiac,2024-03-22,8,4881.1
+100448,Sam,Wilson,1975-08-18,K21,GERD,City Hospital,Low,Gastroenterology,2025-11-13,11,14514.04
+100449,Pat,Lopez,1998-01-28,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-08-10,8,1425.64
+100450,Chris,Garcia,1964-11-02,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-11-04,9,11599.38
+100451,John,Wilson,1976-04-02,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-02-22,11,7711.91
+100452,Chris,Jones,1977-07-20,J45,Asthma,Valley Health,High,Pulmonary,2023-03-14,10,10767.0
+100453,Lee,Brown,1970-10-14,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2025-01-04,9,4852.83
+100454,Alex,Lopez,1956-04-01,I10,Hypertension,City Hospital,Medium,Cardiac,2023-09-20,12,4250.45
+100455,Sam,Williams,2000-12-23,I10,Hypertension,City Hospital,Low,Cardiac,2024-12-28,4,11291.04
+100456,Chris,Miller,1969-09-21,I10,Hypertension,Metro Clinic,High,Cardiac,2024-08-25,8,12842.6
+100457,Jordan,Smith,1996-11-29,K21,GERD,City Hospital,Medium,Gastroenterology,2024-02-03,9,2237.33
+100458,Taylor,Lopez,1966-10-07,J45,Asthma,City Hospital,Low,Pulmonary,2023-10-09,4,5468.71
+100459,Lee,Davis,1952-11-06,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-09-25,6,9649.98
+100460,Alex,Garcia,1996-12-03,J10,Influenza,City Hospital,Medium,General,2024-07-14,4,11537.3
+100461,Alex,Wilson,1954-03-19,J45,Asthma,City Hospital,Low,Pulmonary,2025-06-07,11,6726.44
+100462,Taylor,Davis,1974-05-22,J10,Influenza,City Hospital,High,General,2024-02-13,12,5909.97
+100463,John,Garcia,1987-08-22,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-01-09,11,11137.25
+100464,Maria,Garcia,1967-12-31,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-10-27,10,4938.67
+100465,Jane,Smith,1966-10-02,I10,Hypertension,Valley Health,High,Cardiac,2025-12-01,10,8099.71
+100466,Taylor,Williams,1970-09-30,J45,Asthma,Metro Clinic,Low,Pulmonary,2023-12-04,13,6349.18
+100467,Maria,Brown,2005-03-27,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2023-02-14,10,7817.19
+100468,Jane,Garcia,2003-10-18,J10,Influenza,Valley Health,High,General,2024-06-07,13,8253.63
+100469,John,Wilson,1944-04-20,J10,Influenza,City Hospital,Low,General,2023-08-26,7,6942.56
+100470,Jane,Lopez,1962-09-03,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-01-20,5,6602.64
+100471,Jane,Lopez,1964-03-21,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-08-03,9,10922.11
+100472,Jane,Jones,1950-03-24,J10,Influenza,Valley Health,Low,General,2024-02-14,13,4313.41
+100473,Sam,Brown,1972-02-10,J45,Asthma,Metro Clinic,Low,Pulmonary,2023-03-22,9,7697.14
+100474,Maria,Davis,1969-08-29,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-07-02,2,12610.87
+100475,Jordan,Williams,1948-01-30,K21,GERD,City Hospital,High,Gastroenterology,2023-07-27,5,9842.88
+100476,Jordan,Jones,1963-09-11,J45,Asthma,City Hospital,Low,Pulmonary,2023-12-24,14,1071.95
+100477,Chris,Garcia,2000-09-18,I10,Hypertension,Valley Health,High,Cardiac,2023-08-26,2,12843.07
+100478,John,Smith,1952-05-31,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2025-06-15,10,4390.49
+100479,Jane,Garcia,1970-09-30,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-03-30,8,4441.58
+100480,Taylor,Davis,1977-11-01,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-05-01,14,2811.23
+100481,Taylor,Wilson,1983-04-21,K21,GERD,Valley Health,Low,Gastroenterology,2025-02-16,13,5699.68
+100482,John,Williams,1983-05-04,J45,Asthma,City Hospital,Medium,Pulmonary,2025-06-21,1,1418.37
+100483,Pat,Smith,2003-03-18,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-11-23,9,8085.0
+100484,Lee,Johnson,1978-10-31,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2025-02-27,3,12665.98
+100485,Sam,Wilson,1944-11-23,J10,Influenza,Regional Medical Center,High,General,2025-08-19,14,7689.61
+100486,Alex,Johnson,1984-02-09,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-07-23,1,7850.48
+100487,Sam,Miller,1976-03-06,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-06-28,13,8809.01
+100488,Jane,Davis,1980-02-09,I10,Hypertension,City Hospital,Medium,Cardiac,2023-02-06,2,6349.88
+100489,John,Lopez,1989-04-05,J10,Influenza,City Hospital,High,General,2024-09-15,9,8653.82
+100490,Jordan,Garcia,1972-08-06,J10,Influenza,Regional Medical Center,Medium,General,2024-11-10,9,11627.54
+100491,Lee,Davis,2004-04-17,I10,Hypertension,Valley Health,Low,Cardiac,2023-07-19,13,10054.2
+100492,John,Garcia,1971-11-11,I10,Hypertension,Metro Clinic,High,Cardiac,2023-08-06,1,13504.72
+100493,Jordan,Williams,2004-04-23,J45,Asthma,City Hospital,Medium,Pulmonary,2024-02-06,4,2250.81
+100494,Taylor,Brown,1981-01-01,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-04-28,1,13936.08
+100495,Lee,Johnson,1980-06-01,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2023-01-09,9,11175.1
+100496,Sam,Miller,1992-06-29,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-12-22,12,12321.04
+100497,Jane,Miller,1998-12-27,K21,GERD,Metro Clinic,High,Gastroenterology,2025-02-26,7,14702.76
+100498,Maria,Jones,1975-09-11,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-10-01,3,6484.81
+100499,Sam,Jones,2002-12-07,K21,GERD,Metro Clinic,High,Gastroenterology,2024-03-21,4,3540.83
+100500,Chris,Garcia,2000-04-27,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-10-22,12,2173.38
+100501,Pat,Lopez,1983-02-04,K21,GERD,Valley Health,High,Gastroenterology,2025-12-29,5,13223.42
+100502,Taylor,Smith,1986-11-23,J10,Influenza,City Hospital,Medium,General,2023-10-25,1,10218.69
+100503,Maria,Jones,1954-06-09,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-05-08,12,11873.18
+100504,Maria,Lopez,1942-11-24,I10,Hypertension,Valley Health,Low,Cardiac,2024-04-04,12,9883.23
+100505,Taylor,Brown,1985-11-01,I10,Hypertension,City Hospital,Medium,Cardiac,2025-03-04,7,14372.18
+100506,Pat,Lopez,1944-10-28,J10,Influenza,Metro Clinic,Low,General,2025-06-26,14,3770.45
+100507,Pat,Wilson,1989-01-14,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-02-01,5,7007.82
+100508,Jane,Williams,1955-08-04,K21,GERD,City Hospital,Medium,Gastroenterology,2023-03-25,7,4547.13
+100509,Chris,Williams,1954-06-09,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-11-07,8,10790.49
+100510,Alex,Smith,1953-10-15,I10,Hypertension,City Hospital,High,Cardiac,2024-09-08,8,11953.67
+100511,Sam,Garcia,1946-07-16,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-12-02,2,11900.74
+100512,Alex,Miller,1988-09-20,K21,GERD,Valley Health,Low,Gastroenterology,2024-12-16,4,13309.25
+100513,Pat,Garcia,1972-05-14,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-12-22,8,14951.15
+100514,John,Johnson,2000-01-05,I10,Hypertension,Valley Health,Low,Cardiac,2024-05-14,1,10396.99
+100515,Pat,Miller,1950-03-04,J45,Asthma,Metro Clinic,High,Pulmonary,2024-08-02,1,13714.37
+100516,Pat,Lopez,1985-08-22,J45,Asthma,Valley Health,Low,Pulmonary,2024-08-30,11,3291.43
+100517,Sam,Johnson,1948-08-10,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-05-15,4,10219.86
+100518,Maria,Miller,1949-04-28,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-05-28,12,10447.63
+100519,John,Davis,2004-04-24,I10,Hypertension,City Hospital,Low,Cardiac,2023-05-31,1,3080.89
+100520,Chris,Lopez,1946-04-27,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-04-14,7,7041.32
+100521,Taylor,Miller,1968-05-20,J10,Influenza,Valley Health,High,General,2023-08-31,9,585.53
+100522,Lee,Johnson,1992-07-15,J10,Influenza,City Hospital,Medium,General,2025-10-26,2,4702.63
+100523,Chris,Wilson,1947-10-05,I10,Hypertension,Valley Health,Medium,Cardiac,2025-03-20,14,10080.49
+100524,Jordan,Williams,1987-11-10,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-03-11,13,12063.53
+100525,Sam,Jones,1996-11-18,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-02-03,1,8526.1
+100526,Sam,Williams,1951-01-21,J10,Influenza,City Hospital,High,General,2025-03-18,9,8439.12
+100527,Jane,Jones,1958-11-05,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2025-11-15,3,2833.84
+100528,Maria,Wilson,1962-09-03,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-04-22,14,11390.11
+100529,Sam,Davis,1997-11-01,K21,GERD,City Hospital,Medium,Gastroenterology,2023-05-18,5,1923.93
+100530,Lee,Davis,1969-09-06,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-04-25,2,4634.49
+100531,Jane,Brown,1968-07-05,J45,Asthma,Valley Health,Medium,Pulmonary,2024-09-18,12,8970.46
+100532,Lee,Wilson,1972-09-12,I10,Hypertension,Valley Health,Low,Cardiac,2023-01-10,6,4069.54
+100533,Maria,Miller,1964-10-27,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-11-10,8,7211.3
+100534,Pat,Jones,1983-09-09,K21,GERD,City Hospital,Low,Gastroenterology,2023-06-17,14,4568.93
+100535,Alex,Lopez,1957-08-15,I10,Hypertension,City Hospital,High,Cardiac,2023-06-04,1,12819.02
+100536,John,Wilson,1991-12-08,J45,Asthma,Regional Medical Center,Low,Pulmonary,2024-06-17,9,13462.8
+100537,Sam,Davis,1998-08-31,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-04-02,13,9049.21
+100538,Chris,Williams,1981-09-09,K21,GERD,City Hospital,Medium,Gastroenterology,2025-01-15,9,653.58
+100539,Maria,Wilson,2001-05-18,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2023-11-23,3,8712.18
+100540,Lee,Williams,2005-09-02,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-03-24,13,7570.81
+100541,Jane,Jones,1973-02-21,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2024-02-28,9,13662.03
+100542,Pat,Miller,1982-02-19,J45,Asthma,City Hospital,Low,Pulmonary,2024-10-25,2,10704.18
+100543,Sam,Jones,1963-08-16,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-02-14,6,9021.34
+100544,Jane,Lopez,1962-07-27,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-04-11,6,12349.93
+100545,Pat,Davis,1983-04-02,K21,GERD,City Hospital,High,Gastroenterology,2023-10-12,8,2901.28
+100546,Jane,Lopez,1997-09-23,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-01-18,3,5752.23
+100547,Jane,Brown,1977-03-13,I10,Hypertension,City Hospital,Medium,Cardiac,2025-09-07,8,3555.21
+100548,Alex,Miller,1942-01-05,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-11-26,3,9628.34
+100549,John,Wilson,1953-03-05,J10,Influenza,Regional Medical Center,Medium,General,2024-01-04,9,14394.46
+100550,Lee,Wilson,1997-03-15,J10,Influenza,Metro Clinic,Low,General,2024-03-19,8,9294.63
+100551,Jordan,Davis,1955-04-21,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-10-20,13,8948.37
+100552,Alex,Wilson,1999-03-07,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-12-02,8,9149.73
+100553,Jane,Brown,1973-12-06,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-02-03,4,8079.31
+100554,Sam,Miller,1953-06-01,K21,GERD,City Hospital,Low,Gastroenterology,2025-09-01,10,9197.3
+100555,Sam,Lopez,1950-07-17,J10,Influenza,Valley Health,High,General,2023-09-24,10,8319.65
+100556,John,Miller,1986-11-01,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-12-21,7,3827.55
+100557,Jordan,Miller,1971-06-12,K21,GERD,City Hospital,Medium,Gastroenterology,2023-10-02,5,7418.55
+100558,Maria,Johnson,1965-05-31,K21,GERD,Valley Health,Medium,Gastroenterology,2024-01-23,1,10782.66
+100559,John,Wilson,1986-11-17,J10,Influenza,City Hospital,Medium,General,2024-02-25,12,12162.16
+100560,Taylor,Garcia,1949-07-24,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2024-06-03,5,12897.17
+100561,Taylor,Wilson,1972-10-20,K21,GERD,Metro Clinic,High,Gastroenterology,2025-03-24,13,3453.56
+100562,Sam,Lopez,1983-04-14,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-09-17,5,14833.37
+100563,Lee,Garcia,2003-04-17,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-09-01,12,3831.68
+100564,Alex,Johnson,1959-03-29,K21,GERD,Valley Health,Medium,Gastroenterology,2023-04-17,3,6142.0
+100565,John,Johnson,1953-01-14,J45,Asthma,Valley Health,Low,Pulmonary,2023-05-12,5,3715.67
+100566,Jane,Wilson,1943-05-22,J45,Asthma,Valley Health,High,Pulmonary,2025-12-03,5,10818.28
+100567,Lee,Smith,1955-09-22,J45,Asthma,Valley Health,Low,Pulmonary,2024-02-18,14,10024.82
+100568,Sam,Jones,1957-06-21,J10,Influenza,Regional Medical Center,High,General,2023-12-14,11,1022.89
+100569,Maria,Smith,1954-02-15,J10,Influenza,Metro Clinic,Medium,General,2024-12-24,11,6229.58
+100570,Lee,Brown,1986-06-13,J10,Influenza,City Hospital,Low,General,2024-08-05,12,12531.59
+100571,Lee,Garcia,1971-03-05,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-02-03,8,13980.85
+100572,Lee,Smith,1963-06-04,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-08-07,9,1549.6
+100573,Chris,Garcia,1950-07-01,K21,GERD,Metro Clinic,High,Gastroenterology,2024-05-27,12,6920.15
+100574,Taylor,Wilson,1983-05-22,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2025-08-01,10,12999.34
+100575,Jordan,Johnson,1963-02-17,J10,Influenza,Valley Health,High,General,2024-03-27,11,10667.05
+100576,Pat,Miller,1971-09-05,K21,GERD,City Hospital,High,Gastroenterology,2024-06-23,4,4665.7
+100577,Taylor,Garcia,1946-10-27,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-10-04,6,3669.21
+100578,Lee,Jones,1956-05-25,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2024-02-13,4,11163.72
+100579,Chris,Brown,1960-07-24,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-12-30,3,11794.61
+100580,Jane,Johnson,2000-08-18,J45,Asthma,City Hospital,High,Pulmonary,2023-03-28,14,7493.24
+100581,Lee,Garcia,1984-03-03,K21,GERD,Metro Clinic,Medium,Gastroenterology,2024-01-10,13,13782.1
+100582,Chris,Miller,1959-12-04,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-12-12,13,6636.05
+100583,Sam,Smith,1985-01-29,I10,Hypertension,Valley Health,High,Cardiac,2023-12-24,8,14659.35
+100584,Sam,Davis,1968-04-26,J10,Influenza,City Hospital,High,General,2024-03-07,7,8924.62
+100585,Pat,Garcia,1994-12-22,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-06-22,4,4406.42
+100586,Lee,Garcia,1972-10-29,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2024-03-07,7,10660.33
+100587,Pat,Garcia,1975-12-09,I10,Hypertension,Valley Health,Low,Cardiac,2023-09-26,10,10447.17
+100588,Jane,Jones,1961-02-25,K21,GERD,Valley Health,Medium,Gastroenterology,2024-02-06,3,12100.54
+100589,Alex,Davis,1940-11-15,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-10-03,14,9644.45
+100590,Sam,Garcia,1983-08-28,I10,Hypertension,Metro Clinic,High,Cardiac,2023-04-08,7,1935.13
+100591,Alex,Smith,1959-05-01,I10,Hypertension,Valley Health,High,Cardiac,2023-07-17,8,11296.6
+100592,Chris,Garcia,1972-04-28,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-02-10,7,2257.94
+100593,Lee,Brown,1991-10-02,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-12-28,6,10261.3
+100594,Jordan,Davis,1947-01-13,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-10-24,14,2929.85
+100595,Pat,Miller,1996-08-19,K21,GERD,Valley Health,Low,Gastroenterology,2023-06-12,3,5482.57
+100596,Pat,Garcia,1998-08-01,I10,Hypertension,Metro Clinic,High,Cardiac,2025-03-20,5,13371.53
+100597,Pat,Wilson,1986-09-26,J45,Asthma,Valley Health,Low,Pulmonary,2024-01-12,14,834.97
+100598,Maria,Jones,2002-11-11,J10,Influenza,Regional Medical Center,Low,General,2025-03-24,2,1885.53
+100599,Jordan,Lopez,1944-10-29,J10,Influenza,Valley Health,High,General,2023-06-20,2,4305.56
+100600,Alex,Johnson,1998-09-30,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-05-21,12,4620.54
+100601,Alex,Williams,1987-04-04,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-12-31,14,13771.45
+100602,Jordan,Davis,1988-06-30,I10,Hypertension,Valley Health,Low,Cardiac,2023-12-29,10,9164.97
+100603,Lee,Miller,1986-12-17,K21,GERD,Metro Clinic,Medium,Gastroenterology,2025-09-13,9,3793.36
+100604,Jane,Davis,1967-08-15,I10,Hypertension,Valley Health,Medium,Cardiac,2023-11-15,5,653.06
+100605,Sam,Williams,1970-11-07,I10,Hypertension,Valley Health,High,Cardiac,2023-01-18,12,13870.28
+100606,Jordan,Jones,1940-10-26,J45,Asthma,Metro Clinic,High,Pulmonary,2024-04-18,13,604.66
+100607,Pat,Brown,1976-12-08,K21,GERD,Valley Health,Medium,Gastroenterology,2024-05-26,3,10866.6
+100608,Taylor,Miller,1959-10-16,I10,Hypertension,City Hospital,Medium,Cardiac,2024-05-05,9,11585.81
+100609,Lee,Jones,1965-07-16,K21,GERD,Metro Clinic,Medium,Gastroenterology,2024-01-21,14,1492.73
+100610,Alex,Jones,1949-11-25,J45,Asthma,Valley Health,Medium,Pulmonary,2025-10-04,4,5149.33
+100611,Alex,Smith,1987-12-29,J10,Influenza,Regional Medical Center,Low,General,2024-07-31,5,2313.07
+100612,Jordan,Smith,1960-11-19,J10,Influenza,Regional Medical Center,Low,General,2025-10-07,4,5457.74
+100613,Chris,Davis,1973-04-26,J45,Asthma,City Hospital,Medium,Pulmonary,2023-06-14,14,11383.26
+100614,Alex,Smith,1963-11-28,J45,Asthma,City Hospital,High,Pulmonary,2025-08-20,3,3286.79
+100615,Chris,Miller,1941-02-17,J10,Influenza,Regional Medical Center,Medium,General,2025-06-26,4,11195.48
+100616,John,Brown,1981-05-05,J10,Influenza,Regional Medical Center,Medium,General,2025-03-07,11,14437.6
+100617,Pat,Williams,1996-06-11,J10,Influenza,City Hospital,Medium,General,2025-09-12,11,4832.79
+100618,Pat,Smith,1999-10-24,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-06-08,6,718.48
+100619,Chris,Wilson,1950-09-25,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-03-28,10,11860.39
+100620,Jordan,Wilson,1953-11-26,I10,Hypertension,City Hospital,Low,Cardiac,2023-11-19,8,1825.32
+100621,Lee,Garcia,1996-01-31,J10,Influenza,City Hospital,Medium,General,2023-11-12,12,8277.12
+100622,Jane,Williams,1983-10-07,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2024-12-12,13,13431.04
+100623,Maria,Smith,2001-11-01,J45,Asthma,Metro Clinic,High,Pulmonary,2023-10-03,5,13530.61
+100624,Jordan,Davis,1990-02-25,I10,Hypertension,Valley Health,Low,Cardiac,2024-01-18,9,5541.14
+100625,Jordan,Jones,1993-09-16,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-12-23,3,7016.07
+100626,Chris,Lopez,1972-12-07,J45,Asthma,City Hospital,High,Pulmonary,2025-11-02,7,11138.04
+100627,John,Wilson,1972-08-30,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-05-10,11,14523.87
+100628,Taylor,Brown,1987-01-06,J45,Asthma,Regional Medical Center,High,Pulmonary,2024-08-02,6,6442.17
+100629,Pat,Johnson,1948-08-20,K21,GERD,City Hospital,Low,Gastroenterology,2023-09-23,3,13165.65
+100630,Maria,Johnson,1983-07-18,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-03-06,11,7603.69
+100631,Lee,Wilson,1962-12-17,J10,Influenza,Metro Clinic,Low,General,2023-05-26,1,13988.06
+100632,Maria,Davis,1947-03-05,J45,Asthma,City Hospital,Medium,Pulmonary,2025-05-01,14,5851.5
+100633,John,Wilson,1963-11-06,K21,GERD,City Hospital,High,Gastroenterology,2023-05-25,14,4906.62
+100634,Maria,Lopez,1948-09-17,J10,Influenza,Regional Medical Center,High,General,2025-02-28,4,3300.23
+100635,Maria,Wilson,1996-02-06,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-08-05,13,9760.05
+100636,Pat,Davis,2003-01-11,J45,Asthma,City Hospital,Low,Pulmonary,2024-01-05,9,6322.58
+100637,Pat,Williams,1987-11-24,K21,GERD,Valley Health,Medium,Gastroenterology,2024-10-07,9,14876.21
+100638,Pat,Garcia,1976-12-28,J45,Asthma,Metro Clinic,High,Pulmonary,2024-05-07,10,8411.58
+100639,Taylor,Lopez,1962-10-17,I10,Hypertension,Valley Health,Medium,Cardiac,2025-03-24,1,11031.54
+100640,Chris,Wilson,1941-06-18,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-01-14,5,14773.72
+100641,Maria,Garcia,1941-12-12,I10,Hypertension,Regional Medical Center,Low,Cardiac,2023-03-19,8,5657.01
+100642,Alex,Jones,1972-12-06,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-06-08,13,4854.39
+100643,Lee,Miller,1991-01-20,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2024-10-26,13,7496.73
+100644,Jordan,Wilson,1948-07-21,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-02-20,2,11811.77
+100645,Pat,Garcia,1978-12-18,J45,Asthma,City Hospital,Low,Pulmonary,2023-01-24,11,11772.57
+100646,Taylor,Smith,1967-05-06,K21,GERD,City Hospital,Medium,Gastroenterology,2023-11-03,6,7784.82
+100647,Maria,Williams,1944-07-13,J45,Asthma,Valley Health,High,Pulmonary,2025-10-30,2,3720.24
+100648,Chris,Miller,1953-04-12,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-09-01,10,11307.07
+100649,Sam,Miller,1963-07-22,J10,Influenza,Valley Health,High,General,2025-06-08,13,10619.12
+100650,Alex,Davis,1990-03-06,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2024-02-06,9,9431.95
+100651,Sam,Brown,1961-09-27,J10,Influenza,Metro Clinic,Medium,General,2024-10-24,11,13900.0
+100652,Jane,Johnson,2000-04-06,J45,Asthma,Valley Health,Medium,Pulmonary,2024-12-14,4,5150.71
+100653,Lee,Smith,1967-05-07,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-06-24,10,2614.37
+100654,John,Brown,1957-11-30,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-06-25,2,11223.93
+100655,Maria,Wilson,1953-04-01,I10,Hypertension,City Hospital,Medium,Cardiac,2023-08-16,5,7025.89
+100656,John,Garcia,1958-10-01,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-12-07,13,4250.54
+100657,Jordan,Wilson,2005-06-26,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-12-14,1,4204.12
+100658,John,Jones,1958-01-02,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-08-10,11,14205.06
+100659,Jane,Miller,1999-03-31,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-02-09,5,13077.45
+100660,Taylor,Brown,1974-02-25,K21,GERD,City Hospital,Medium,Gastroenterology,2025-09-19,14,9158.04
+100661,Jane,Williams,1957-11-03,K21,GERD,Valley Health,High,Gastroenterology,2023-02-14,1,4087.19
+100662,Sam,Jones,1969-12-04,J45,Asthma,Valley Health,High,Pulmonary,2023-11-18,1,5528.31
+100663,Pat,Garcia,1996-02-03,I10,Hypertension,Regional Medical Center,High,Cardiac,2024-07-18,13,1399.14
+100664,Chris,Miller,1942-08-23,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-11-07,6,13509.04
+100665,Alex,Johnson,2005-06-25,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-05-07,10,2714.86
+100666,Chris,Wilson,1969-07-17,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-10-11,10,8349.63
+100667,Maria,Williams,1967-09-21,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-10-25,11,14028.93
+100668,Alex,Garcia,1946-01-31,K21,GERD,City Hospital,Low,Gastroenterology,2024-10-12,14,13254.75
+100669,John,Garcia,1977-02-22,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-07-14,3,11797.06
+100670,Jane,Williams,1956-07-28,J10,Influenza,Metro Clinic,High,General,2024-04-17,10,3866.65
+100671,John,Garcia,1947-02-17,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-08-18,12,9918.74
+100672,Alex,Miller,1984-02-02,J45,Asthma,Regional Medical Center,Low,Pulmonary,2024-01-31,4,967.33
+100673,John,Jones,1977-01-20,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-05-16,3,13943.0
+100674,Jordan,Wilson,1983-12-15,I10,Hypertension,Valley Health,Low,Cardiac,2025-05-25,7,11755.11
+100675,Lee,Miller,2004-08-11,I10,Hypertension,Valley Health,High,Cardiac,2025-12-11,11,13198.85
+100676,John,Lopez,1949-10-22,J45,Asthma,Valley Health,Low,Pulmonary,2024-05-18,9,8299.1
+100677,John,Lopez,1974-10-03,K21,GERD,City Hospital,Low,Gastroenterology,2024-08-19,8,6271.58
+100678,Chris,Jones,1981-05-22,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-04-22,12,7996.06
+100679,Alex,Davis,1997-12-18,J45,Asthma,City Hospital,High,Pulmonary,2025-10-22,2,3106.69
+100680,Lee,Lopez,1952-02-20,J45,Asthma,Valley Health,Medium,Pulmonary,2025-07-12,1,3093.74
+100681,Lee,Brown,1980-10-16,J10,Influenza,Metro Clinic,Medium,General,2023-12-02,12,11132.3
+100682,Jane,Johnson,2003-05-11,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-12-08,12,6069.27
+100683,Sam,Wilson,1954-05-06,J45,Asthma,Valley Health,Low,Pulmonary,2023-12-16,6,8699.63
+100684,Alex,Williams,1952-12-21,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2024-09-22,5,11087.35
+100685,Jordan,Jones,1996-03-14,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-02-20,1,9527.12
+100686,Chris,Smith,1981-02-22,J45,Asthma,Valley Health,High,Pulmonary,2023-01-12,10,13299.19
+100687,Maria,Brown,1992-10-29,J45,Asthma,Valley Health,Medium,Pulmonary,2025-06-23,2,9217.64
+100688,John,Brown,1989-02-07,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-01-14,3,1298.43
+100689,Pat,Smith,1953-01-15,J10,Influenza,Metro Clinic,Medium,General,2023-06-29,1,2078.87
+100690,Alex,Williams,2000-04-18,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2025-01-07,1,1850.33
+100691,Chris,Garcia,1973-01-24,J45,Asthma,City Hospital,Medium,Pulmonary,2023-05-13,5,7326.84
+100692,Jane,Jones,1969-07-14,K21,GERD,Valley Health,High,Gastroenterology,2024-03-05,12,3531.24
+100693,John,Johnson,1991-04-05,K21,GERD,City Hospital,Medium,Gastroenterology,2024-08-11,7,9328.25
+100694,Pat,Jones,1987-02-19,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-10-13,9,11073.18
+100695,Jordan,Davis,1956-02-21,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-08-17,4,522.92
+100696,John,Davis,1996-02-11,J10,Influenza,Regional Medical Center,High,General,2025-04-29,7,1159.64
+100697,Pat,Lopez,1997-03-11,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2024-02-17,12,4583.59
+100698,Jane,Jones,1966-12-09,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-08-22,11,5332.6
+100699,Taylor,Wilson,1995-04-06,J10,Influenza,Regional Medical Center,Low,General,2024-11-07,14,5400.08
+100700,Jordan,Davis,1943-03-11,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2025-08-01,14,8286.03
+100701,Pat,Davis,1977-02-19,J10,Influenza,Metro Clinic,High,General,2024-10-08,9,8270.34
+100702,Maria,Wilson,2001-07-01,I10,Hypertension,Metro Clinic,Low,Cardiac,2023-11-02,5,12690.72
+100703,Pat,Miller,1996-03-16,K21,GERD,Regional Medical Center,High,Gastroenterology,2025-03-08,3,9130.28
+100704,Chris,Garcia,2003-09-07,J10,Influenza,Metro Clinic,Medium,General,2023-06-27,8,13217.21
+100705,Pat,Davis,1967-02-24,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-08-18,6,11881.69
+100706,Maria,Johnson,1979-10-24,K21,GERD,City Hospital,Medium,Gastroenterology,2025-10-21,3,3258.07
+100707,Jordan,Lopez,1967-11-04,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-11-23,11,14894.44
+100708,Maria,Smith,1981-03-18,J45,Asthma,City Hospital,Low,Pulmonary,2024-09-28,1,10462.26
+100709,Lee,Johnson,1969-11-25,J45,Asthma,City Hospital,Low,Pulmonary,2025-12-02,13,10055.27
+100710,Chris,Smith,1991-10-25,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-02-15,4,4655.23
+100711,Sam,Garcia,1979-07-29,J10,Influenza,Metro Clinic,Low,General,2023-11-19,5,2159.68
+100712,Lee,Lopez,1986-02-12,J10,Influenza,Regional Medical Center,High,General,2024-12-18,9,5118.03
+100713,Alex,Jones,1991-07-03,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2024-09-29,10,13437.53
+100714,Sam,Davis,1944-07-20,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-04-14,2,6062.19
+100715,Jane,Miller,1975-02-28,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2024-12-29,5,5318.82
+100716,Maria,Lopez,1947-01-17,J45,Asthma,Regional Medical Center,Low,Pulmonary,2025-08-17,2,7105.97
+100717,Jordan,Davis,1960-10-14,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-06-12,6,6185.12
+100718,Pat,Garcia,1980-08-31,J45,Asthma,City Hospital,Low,Pulmonary,2025-08-31,2,5595.89
+100719,Jordan,Williams,1965-04-28,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-07-30,7,12354.52
+100720,Jane,Garcia,1989-11-22,J10,Influenza,Metro Clinic,High,General,2025-08-02,7,9062.77
+100721,Maria,Wilson,1961-11-11,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-02-25,2,5440.36
+100722,Lee,Miller,1979-01-21,K21,GERD,Metro Clinic,High,Gastroenterology,2024-04-28,3,10107.88
+100723,Jane,Wilson,1983-08-28,J10,Influenza,Valley Health,Medium,General,2023-07-19,14,6955.64
+100724,Chris,Miller,1946-03-30,K21,GERD,City Hospital,High,Gastroenterology,2025-02-15,6,7667.28
+100725,John,Johnson,1959-07-10,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-11-02,8,8203.21
+100726,Taylor,Wilson,1991-11-06,J45,Asthma,Regional Medical Center,Low,Pulmonary,2024-10-10,5,8769.01
+100727,Chris,Miller,2004-05-24,I10,Hypertension,City Hospital,High,Cardiac,2023-01-17,10,14803.11
+100728,Taylor,Williams,1966-05-23,J10,Influenza,Metro Clinic,High,General,2023-04-19,1,10698.63
+100729,Pat,Johnson,1965-04-26,J10,Influenza,Regional Medical Center,Medium,General,2025-03-18,11,5112.85
+100730,Taylor,Miller,1974-03-26,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-12-22,8,2516.5
+100731,Sam,Miller,1972-04-27,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2023-09-15,3,668.24
+100732,John,Williams,2004-09-17,J45,Asthma,Valley Health,Low,Pulmonary,2023-06-23,3,9812.52
+100733,Taylor,Davis,2002-05-21,K21,GERD,Valley Health,High,Gastroenterology,2024-01-04,8,7886.52
+100734,Sam,Davis,1974-07-07,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-05-19,10,607.73
+100735,Jordan,Brown,2003-11-21,K21,GERD,Metro Clinic,Medium,Gastroenterology,2025-01-21,1,14684.39
+100736,Lee,Davis,2003-03-28,I10,Hypertension,City Hospital,High,Cardiac,2025-09-13,12,1660.92
+100737,Sam,Jones,1981-09-17,K21,GERD,City Hospital,High,Gastroenterology,2023-07-01,4,7350.55
+100738,Jane,Lopez,1992-01-01,I10,Hypertension,City Hospital,Medium,Cardiac,2025-12-31,13,656.36
+100739,Jordan,Lopez,1982-02-04,K21,GERD,Metro Clinic,Medium,Gastroenterology,2024-12-23,13,4771.96
+100740,Alex,Smith,2002-05-10,K21,GERD,Metro Clinic,High,Gastroenterology,2024-06-17,1,9624.85
+100741,Lee,Williams,1991-05-24,J10,Influenza,Metro Clinic,High,General,2023-02-25,5,7529.02
+100742,Alex,Lopez,1946-11-23,I10,Hypertension,Metro Clinic,Low,Cardiac,2024-07-29,5,12938.95
+100743,John,Johnson,1994-03-04,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-07-03,6,12213.69
+100744,Chris,Brown,1983-07-03,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-06-22,3,9135.39
+100745,Alex,Davis,1977-01-17,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-06-20,12,9744.83
+100746,Maria,Wilson,2005-11-18,I10,Hypertension,City Hospital,High,Cardiac,2024-06-25,13,12383.2
+100747,John,Williams,1981-08-17,J45,Asthma,Valley Health,Medium,Pulmonary,2025-09-02,12,14249.65
+100748,Sam,Brown,1974-01-27,J45,Asthma,Valley Health,Medium,Pulmonary,2023-10-25,9,13119.03
+100749,John,Jones,1980-04-06,J45,Asthma,Metro Clinic,High,Pulmonary,2023-03-26,2,13806.83
+100750,Pat,Miller,1994-10-08,I10,Hypertension,Metro Clinic,Medium,Cardiac,2024-06-30,13,1925.01
+100751,Lee,Miller,1981-05-14,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2024-11-22,11,10509.04
+100752,Alex,Garcia,1989-02-16,J10,Influenza,City Hospital,Low,General,2023-01-25,7,1916.63
+100753,Jane,Davis,1971-07-15,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2024-01-31,1,843.66
+100754,Jane,Smith,1993-04-20,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-09-03,2,12918.39
+100755,Alex,Miller,1998-11-20,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-01-13,5,4771.24
+100756,Jane,Davis,1964-10-17,J45,Asthma,Metro Clinic,Medium,Pulmonary,2023-11-28,13,1572.96
+100757,John,Miller,1974-11-11,I10,Hypertension,City Hospital,Medium,Cardiac,2024-06-26,3,6888.34
+100758,Jordan,Brown,1994-10-02,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-10-04,2,2586.15
+100759,Taylor,Brown,1995-01-30,J10,Influenza,Valley Health,High,General,2024-06-14,2,1005.48
+100760,Jane,Wilson,2005-04-09,I10,Hypertension,Valley Health,Low,Cardiac,2025-10-16,3,9966.55
+100761,John,Smith,1999-08-16,J45,Asthma,Metro Clinic,Low,Pulmonary,2024-11-06,7,8832.28
+100762,Sam,Davis,1982-11-23,J45,Asthma,Valley Health,High,Pulmonary,2023-05-24,9,3774.78
+100763,Taylor,Davis,1950-11-15,K21,GERD,Metro Clinic,Medium,Gastroenterology,2024-09-12,7,1300.32
+100764,Jane,Garcia,1987-12-18,I10,Hypertension,City Hospital,Medium,Cardiac,2024-08-16,11,3445.25
+100765,Sam,Smith,1974-06-19,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-03-09,2,9643.95
+100766,Pat,Davis,1947-08-12,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-03-15,4,867.79
+100767,Lee,Brown,1983-11-22,J45,Asthma,City Hospital,High,Pulmonary,2024-09-22,8,8242.13
+100768,Jordan,Smith,1943-04-28,I10,Hypertension,City Hospital,Medium,Cardiac,2023-03-29,7,2213.71
+100769,Sam,Davis,2000-10-31,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-04-22,2,1034.73
+100770,Alex,Davis,1998-08-28,J10,Influenza,Valley Health,High,General,2023-04-04,4,10668.8
+100771,Alex,Smith,1955-06-15,J10,Influenza,Metro Clinic,Low,General,2025-07-23,10,2975.0
+100772,Lee,Johnson,1949-07-16,J10,Influenza,Valley Health,High,General,2024-03-27,2,12164.58
+100773,Taylor,Garcia,2000-11-10,J45,Asthma,Metro Clinic,Low,Pulmonary,2023-10-09,6,12628.19
+100774,Maria,Smith,1993-03-17,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-09-05,5,2547.93
+100775,Taylor,Williams,2002-06-20,I10,Hypertension,Regional Medical Center,Medium,Cardiac,2024-05-13,10,1090.13
+100776,Jane,Wilson,1973-09-29,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-06-15,1,604.75
+100777,Jane,Wilson,1965-06-15,J45,Asthma,Valley Health,High,Pulmonary,2023-09-17,4,2574.77
+100778,Chris,Lopez,1980-05-29,J45,Asthma,Regional Medical Center,Low,Pulmonary,2023-03-19,10,3110.01
+100779,Jordan,Wilson,1947-11-24,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-01-10,9,3916.77
+100780,Jane,Lopez,1948-08-01,K21,GERD,Metro Clinic,High,Gastroenterology,2025-11-05,4,7231.13
+100781,Maria,Jones,1944-10-04,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-08-29,8,3056.7
+100782,John,Smith,1997-11-07,I10,Hypertension,Metro Clinic,Low,Cardiac,2025-06-09,5,5347.27
+100783,Jordan,Smith,1949-05-14,J10,Influenza,Regional Medical Center,Low,General,2023-03-01,8,7966.1
+100784,Jane,Brown,2004-09-19,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-02-12,12,10314.36
+100785,Pat,Brown,1949-11-17,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-04-30,12,6482.63
+100786,Maria,Miller,1959-10-18,J10,Influenza,Valley Health,High,General,2025-09-19,1,13412.09
+100787,Alex,Brown,1994-09-03,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2025-02-03,3,7137.23
+100788,Maria,Garcia,1964-03-12,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-03-07,12,8745.65
+100789,Chris,Williams,1949-12-19,J45,Asthma,Valley Health,Medium,Pulmonary,2023-12-17,13,5481.85
+100790,Chris,Wilson,1954-01-24,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-04-15,2,6469.59
+100791,Sam,Davis,1959-06-02,K21,GERD,Valley Health,Medium,Gastroenterology,2024-07-25,1,11085.26
+100792,Maria,Brown,1969-05-12,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-11-02,10,13524.65
+100793,Taylor,Smith,1943-08-05,J45,Asthma,City Hospital,Medium,Pulmonary,2025-12-23,7,7449.41
+100794,Jane,Davis,1984-06-07,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2023-01-26,12,11110.9
+100795,Maria,Williams,1972-02-26,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-07-05,1,7456.85
+100796,Chris,Williams,2003-02-04,J45,Asthma,City Hospital,Medium,Pulmonary,2025-08-07,13,2510.05
+100797,Taylor,Williams,1973-03-25,J45,Asthma,City Hospital,High,Pulmonary,2023-05-25,7,13454.8
+100798,Pat,Lopez,1942-12-07,I10,Hypertension,Valley Health,Medium,Cardiac,2024-02-29,13,10427.65
+100799,Lee,Garcia,1944-12-01,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-08-16,7,5801.07
+100800,Lee,Smith,1972-10-18,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-05-18,9,10785.39
+100801,Maria,Williams,1970-01-17,E11,Type 2 Diabetes,City Hospital,High,Endocrinology,2025-09-06,12,14117.65
+100802,Lee,Brown,1960-03-23,I10,Hypertension,Metro Clinic,Medium,Cardiac,2025-10-28,11,6632.47
+100803,John,Johnson,1973-06-12,I10,Hypertension,Valley Health,Medium,Cardiac,2025-10-23,9,12528.62
+100804,Jordan,Lopez,2000-11-07,K21,GERD,Metro Clinic,Medium,Gastroenterology,2025-01-23,13,10262.94
+100805,Jane,Brown,1981-01-28,J10,Influenza,City Hospital,Medium,General,2024-01-02,5,14394.72
+100806,Jane,Johnson,1954-10-13,I10,Hypertension,City Hospital,High,Cardiac,2023-10-31,8,2682.22
+100807,Maria,Lopez,1996-04-10,J10,Influenza,Metro Clinic,Medium,General,2023-09-28,8,5527.15
+100808,Jordan,Smith,1966-02-25,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-04-20,14,14238.01
+100809,Pat,Miller,1991-12-01,I10,Hypertension,Metro Clinic,Medium,Cardiac,2025-12-21,14,8452.8
+100810,Jordan,Jones,1990-11-21,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2024-06-16,4,7521.53
+100811,Chris,Smith,1953-04-22,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-12-07,10,13899.91
+100812,Sam,Jones,1956-05-08,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2024-05-02,2,1096.7
+100813,Pat,Wilson,1951-05-07,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-01-13,4,8656.07
+100814,John,Garcia,1970-11-06,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2023-11-29,9,4872.62
+100815,John,Miller,1984-10-20,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-11-16,1,14567.18
+100816,Sam,Lopez,1969-09-20,I10,Hypertension,Valley Health,Medium,Cardiac,2023-10-29,13,8695.86
+100817,Jordan,Garcia,2001-10-28,J10,Influenza,Valley Health,Low,General,2023-10-13,11,8488.92
+100818,Chris,Smith,1976-01-12,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-01-01,2,5232.31
+100819,Lee,Brown,1992-05-04,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-02-05,1,1712.05
+100820,Jordan,Johnson,1985-11-30,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-10-12,10,9273.63
+100821,John,Garcia,1975-09-01,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2025-03-01,6,676.77
+100822,Pat,Garcia,1967-08-22,J45,Asthma,City Hospital,Low,Pulmonary,2025-06-28,12,14892.66
+100823,Jordan,Jones,1954-09-11,J45,Asthma,Valley Health,Low,Pulmonary,2023-06-26,3,3512.86
+100824,Jordan,Lopez,1970-02-02,J10,Influenza,Valley Health,Low,General,2023-01-14,7,9762.69
+100825,Chris,Miller,1955-09-09,K21,GERD,Valley Health,High,Gastroenterology,2023-10-08,4,3197.09
+100826,Taylor,Jones,1989-09-09,J45,Asthma,City Hospital,Medium,Pulmonary,2024-09-14,8,8609.58
+100827,Jordan,Brown,1942-05-29,J10,Influenza,Regional Medical Center,Medium,General,2024-09-06,11,12596.52
+100828,Jordan,Johnson,1998-08-28,I10,Hypertension,Valley Health,Low,Cardiac,2025-10-04,12,9849.39
+100829,John,Johnson,1964-11-13,J45,Asthma,City Hospital,High,Pulmonary,2025-01-10,10,7467.05
+100830,Taylor,Jones,1996-05-04,J45,Asthma,City Hospital,Medium,Pulmonary,2025-11-15,12,8841.32
+100831,Chris,Williams,1992-03-07,J10,Influenza,Regional Medical Center,Medium,General,2025-08-02,12,2464.71
+100832,Alex,Smith,1964-06-17,I10,Hypertension,Valley Health,High,Cardiac,2024-12-30,1,4702.91
+100833,Sam,Johnson,1986-02-06,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-12-09,9,5177.8
+100834,Pat,Jones,1964-05-09,I10,Hypertension,City Hospital,High,Cardiac,2024-12-21,14,2583.9
+100835,Alex,Lopez,1965-03-31,I10,Hypertension,Valley Health,Medium,Cardiac,2024-11-27,3,1985.06
+100836,Alex,Lopez,1959-11-02,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2025-08-01,2,2190.2
+100837,Alex,Smith,1983-01-07,I10,Hypertension,Metro Clinic,High,Cardiac,2025-01-12,3,12347.06
+100838,Lee,Lopez,1970-09-08,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-08-31,4,2366.36
+100839,Alex,Brown,1967-07-31,E11,Type 2 Diabetes,Regional Medical Center,Low,Endocrinology,2023-06-10,7,10516.86
+100840,Jane,Johnson,1941-09-08,J45,Asthma,Valley Health,Low,Pulmonary,2024-02-07,2,975.49
+100841,Sam,Wilson,1945-04-26,J45,Asthma,City Hospital,Medium,Pulmonary,2023-03-30,2,4873.86
+100842,John,Johnson,1951-02-08,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-02-14,3,10223.71
+100843,John,Johnson,1953-01-21,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-11-25,14,7759.2
+100844,Lee,Brown,1985-04-18,K21,GERD,City Hospital,Low,Gastroenterology,2023-01-29,9,3646.47
+100845,Maria,Jones,1955-05-30,K21,GERD,City Hospital,High,Gastroenterology,2023-07-22,4,13846.92
+100846,Jordan,Garcia,2002-08-19,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-08-08,3,12603.76
+100847,Taylor,Miller,1959-03-23,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-08-20,13,14776.88
+100848,Jane,Davis,1949-11-23,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-01-09,12,4679.93
+100849,John,Johnson,1969-06-08,J45,Asthma,City Hospital,Medium,Pulmonary,2024-08-03,8,9205.65
+100850,Chris,Davis,1960-04-06,K21,GERD,Valley Health,Medium,Gastroenterology,2025-05-26,4,12923.22
+100851,Jordan,Garcia,1956-02-01,J10,Influenza,Valley Health,High,General,2023-08-04,7,6851.85
+100852,Jane,Johnson,1952-11-10,J45,Asthma,Valley Health,High,Pulmonary,2023-07-28,12,13916.71
+100853,Alex,Johnson,1972-08-18,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-04-07,2,3876.61
+100854,Taylor,Davis,1964-12-26,K21,GERD,Metro Clinic,High,Gastroenterology,2025-03-30,6,7399.48
+100855,Lee,Miller,1983-06-21,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-07-20,2,2271.76
+100856,Jordan,Davis,1960-09-15,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2023-04-19,14,1489.32
+100857,John,Williams,1974-04-30,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-09-12,10,9536.87
+100858,Jane,Lopez,1984-02-27,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2025-10-16,8,7819.52
+100859,Sam,Garcia,1988-06-29,K21,GERD,City Hospital,Low,Gastroenterology,2025-05-31,2,6062.63
+100860,Pat,Miller,1979-09-14,J45,Asthma,City Hospital,Low,Pulmonary,2023-12-29,9,10061.46
+100861,Chris,Williams,1984-02-03,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2025-03-07,8,11578.16
+100862,Lee,Davis,1999-03-21,K21,GERD,Valley Health,Medium,Gastroenterology,2023-11-17,9,1308.19
+100863,Chris,Davis,1993-01-09,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-10-18,1,908.13
+100864,John,Williams,1972-11-14,I10,Hypertension,City Hospital,High,Cardiac,2024-11-29,7,1911.58
+100865,Pat,Garcia,1976-12-15,I10,Hypertension,City Hospital,High,Cardiac,2024-05-15,4,3902.02
+100866,Chris,Wilson,1947-08-15,J10,Influenza,Metro Clinic,Low,General,2024-11-22,3,785.82
+100867,Pat,Smith,1981-05-08,J45,Asthma,Valley Health,Medium,Pulmonary,2023-02-11,12,7310.65
+100868,John,Garcia,1973-11-20,K21,GERD,Valley Health,Medium,Gastroenterology,2023-07-20,13,7581.2
+100869,Maria,Garcia,1984-07-24,K21,GERD,Metro Clinic,Low,Gastroenterology,2024-09-05,6,14556.7
+100870,Maria,Davis,1997-01-03,J10,Influenza,Regional Medical Center,Medium,General,2024-06-27,1,4811.14
+100871,Lee,Miller,1960-04-06,K21,GERD,City Hospital,High,Gastroenterology,2023-07-14,10,5384.15
+100872,Jane,Wilson,1987-08-23,J45,Asthma,Valley Health,Low,Pulmonary,2024-12-12,13,1611.59
+100873,Chris,Lopez,1966-11-27,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-04-28,7,4143.34
+100874,Sam,Davis,2000-03-31,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-11-23,14,3204.81
+100875,Jordan,Brown,1999-04-14,J45,Asthma,Metro Clinic,High,Pulmonary,2025-12-27,13,9409.12
+100876,Taylor,Wilson,2005-03-09,J10,Influenza,Regional Medical Center,Medium,General,2025-08-05,3,3985.42
+100877,Chris,Miller,1976-10-21,I10,Hypertension,City Hospital,High,Cardiac,2024-02-21,14,6480.36
+100878,Chris,Williams,1963-01-03,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-05-03,2,2674.45
+100879,John,Brown,1967-11-10,J45,Asthma,Valley Health,High,Pulmonary,2025-06-12,7,9880.37
+100880,John,Brown,1954-04-18,I10,Hypertension,Regional Medical Center,Low,Cardiac,2024-06-13,13,12151.3
+100881,Sam,Williams,1997-10-20,J10,Influenza,Valley Health,Low,General,2023-04-24,14,13499.33
+100882,Pat,Wilson,1966-09-25,J10,Influenza,Valley Health,Medium,General,2023-07-04,7,14175.85
+100883,Alex,Brown,1950-01-15,K21,GERD,City Hospital,High,Gastroenterology,2025-12-11,5,7698.54
+100884,Jane,Brown,1993-10-23,J10,Influenza,Metro Clinic,Medium,General,2025-03-09,13,11351.43
+100885,Maria,Miller,1959-07-23,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-03-14,5,6872.39
+100886,Chris,Wilson,1945-01-06,J45,Asthma,Metro Clinic,High,Pulmonary,2023-08-20,6,8413.3
+100887,Jordan,Brown,1964-11-30,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2025-01-23,14,4968.49
+100888,Lee,Smith,1999-05-30,J10,Influenza,Regional Medical Center,Medium,General,2025-02-26,5,9764.76
+100889,Pat,Johnson,1987-12-27,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-01-17,7,13948.86
+100890,Chris,Jones,1948-02-05,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-11-25,8,9654.61
+100891,Taylor,Smith,1964-08-01,J10,Influenza,Valley Health,Medium,General,2025-04-25,14,5324.47
+100892,Taylor,Johnson,1954-05-21,I10,Hypertension,City Hospital,Medium,Cardiac,2025-05-11,10,11073.86
+100893,Sam,Garcia,1980-08-30,J10,Influenza,City Hospital,High,General,2024-01-12,11,6929.37
+100894,Alex,Smith,1975-12-11,E11,Type 2 Diabetes,Metro Clinic,Medium,Endocrinology,2023-06-18,2,2788.43
+100895,Sam,Williams,1993-04-16,J45,Asthma,Metro Clinic,Medium,Pulmonary,2025-09-06,14,11160.0
+100896,Chris,Williams,2001-09-03,K21,GERD,Metro Clinic,Medium,Gastroenterology,2024-02-11,2,6510.2
+100897,Alex,Miller,1973-11-07,K21,GERD,Regional Medical Center,Low,Gastroenterology,2023-02-17,9,9883.05
+100898,Maria,Johnson,1981-06-26,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2023-12-12,1,6315.01
+100899,Taylor,Wilson,1963-05-04,E11,Type 2 Diabetes,City Hospital,Medium,Endocrinology,2023-12-15,10,2201.58
+100900,Sam,Miller,1980-09-14,J45,Asthma,City Hospital,Low,Pulmonary,2024-02-21,4,14217.76
+100901,Chris,Jones,1984-05-01,J45,Asthma,Regional Medical Center,Medium,Pulmonary,2024-02-28,10,3625.72
+100902,Chris,Brown,1977-07-12,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2023-02-28,5,14653.86
+100903,Maria,Wilson,1980-06-16,E11,Type 2 Diabetes,Metro Clinic,High,Endocrinology,2025-07-27,2,649.64
+100904,Alex,Garcia,2002-03-04,J45,Asthma,Regional Medical Center,High,Pulmonary,2025-02-24,12,6637.72
+100905,Lee,Jones,1946-07-21,J10,Influenza,City Hospital,Low,General,2024-11-12,4,7328.52
+100906,Pat,Wilson,2000-03-06,K21,GERD,City Hospital,Low,Gastroenterology,2024-06-03,9,9485.04
+100907,Chris,Miller,2000-03-21,I10,Hypertension,Regional Medical Center,High,Cardiac,2023-03-26,10,3100.9
+100908,Alex,Lopez,1984-03-19,I10,Hypertension,Valley Health,Low,Cardiac,2023-07-03,6,10798.71
+100909,Taylor,Williams,1963-05-12,J10,Influenza,Metro Clinic,Low,General,2023-09-19,8,13139.35
+100910,Chris,Garcia,1978-08-02,I10,Hypertension,Metro Clinic,High,Cardiac,2024-06-24,9,5038.65
+100911,Alex,Garcia,1984-01-28,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2024-01-22,3,1291.22
+100912,Alex,Smith,1982-03-10,I10,Hypertension,Regional Medical Center,High,Cardiac,2025-08-14,7,2182.35
+100913,Jordan,Smith,1979-08-11,I10,Hypertension,Valley Health,Medium,Cardiac,2025-10-06,2,12764.66
+100914,Alex,Johnson,1971-05-13,J10,Influenza,Regional Medical Center,Medium,General,2024-01-05,14,2940.28
+100915,Sam,Jones,1990-07-13,K21,GERD,Regional Medical Center,High,Gastroenterology,2023-01-09,9,11619.29
+100916,Alex,Miller,1946-11-22,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2023-07-13,6,876.45
+100917,Jane,Miller,1973-07-06,K21,GERD,City Hospital,Medium,Gastroenterology,2023-11-11,1,1675.42
+100918,Jordan,Davis,1996-05-15,I10,Hypertension,City Hospital,Medium,Cardiac,2023-03-31,11,9524.29
+100919,Jordan,Garcia,2005-08-18,K21,GERD,Regional Medical Center,Low,Gastroenterology,2023-04-10,13,9832.84
+100920,Pat,Smith,1946-05-06,K21,GERD,Valley Health,Low,Gastroenterology,2025-03-27,5,3081.16
+100921,Taylor,Johnson,1941-11-03,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2025-04-04,5,9883.94
+100922,Alex,Johnson,1966-10-13,J45,Asthma,Valley Health,High,Pulmonary,2024-09-27,11,9250.95
+100923,Pat,Johnson,1972-12-18,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2025-07-01,7,7408.38
+100924,Lee,Wilson,1977-12-15,J10,Influenza,Valley Health,Medium,General,2024-01-17,7,9644.95
+100925,Jane,Smith,1986-01-20,I10,Hypertension,Valley Health,High,Cardiac,2024-04-04,11,10450.43
+100926,Alex,Davis,1987-04-21,K21,GERD,City Hospital,Medium,Gastroenterology,2025-08-16,7,1648.16
+100927,Jordan,Jones,1953-05-01,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2025-12-07,7,4784.48
+100928,John,Lopez,1946-11-12,J10,Influenza,City Hospital,High,General,2025-05-20,7,1870.02
+100929,Lee,Jones,1971-11-21,I10,Hypertension,City Hospital,High,Cardiac,2023-02-03,2,11237.48
+100930,Jordan,Williams,1956-05-06,J45,Asthma,City Hospital,Low,Pulmonary,2025-05-02,12,4815.89
+100931,Lee,Davis,2000-02-18,J45,Asthma,Metro Clinic,Medium,Pulmonary,2024-01-19,4,3183.77
+100932,Lee,Jones,2000-05-31,J10,Influenza,Valley Health,High,General,2023-02-06,1,6226.54
+100933,John,Williams,1998-11-01,J45,Asthma,Valley Health,High,Pulmonary,2025-04-09,14,10036.9
+100934,Lee,Davis,1967-03-02,K21,GERD,Metro Clinic,High,Gastroenterology,2025-03-19,13,4888.52
+100935,Alex,Williams,1941-03-30,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2024-01-21,14,888.82
+100936,Jordan,Williams,1998-04-16,E11,Type 2 Diabetes,Valley Health,High,Endocrinology,2024-01-26,2,4863.31
+100937,Jordan,Williams,1982-07-10,J45,Asthma,City Hospital,Low,Pulmonary,2023-12-07,3,11212.33
+100938,Jordan,Davis,1982-04-19,J10,Influenza,Valley Health,High,General,2024-05-11,4,4775.06
+100939,Taylor,Smith,1969-12-13,J10,Influenza,City Hospital,High,General,2025-06-03,7,12804.94
+100940,Lee,Wilson,2005-08-02,K21,GERD,Metro Clinic,Low,Gastroenterology,2025-09-25,7,7548.46
+100941,Lee,Wilson,2000-11-19,J45,Asthma,Regional Medical Center,High,Pulmonary,2023-05-05,9,775.79
+100942,Lee,Garcia,1989-08-20,J10,Influenza,Metro Clinic,High,General,2025-05-04,8,2195.64
+100943,Lee,Garcia,1980-03-21,J45,Asthma,City Hospital,Low,Pulmonary,2024-08-12,12,3286.92
+100944,Pat,Davis,1960-10-27,K21,GERD,Regional Medical Center,High,Gastroenterology,2024-11-25,10,12875.08
+100945,Jordan,Williams,1966-04-27,J45,Asthma,Valley Health,High,Pulmonary,2025-01-07,13,7348.71
+100946,Alex,Wilson,1958-08-03,I10,Hypertension,City Hospital,High,Cardiac,2025-09-15,3,3012.72
+100947,Alex,Wilson,1984-02-26,J10,Influenza,Valley Health,Medium,General,2024-09-13,4,3536.78
+100948,John,Smith,1972-03-09,I10,Hypertension,Metro Clinic,High,Cardiac,2023-11-21,3,12505.26
+100949,Sam,Smith,1945-09-17,I10,Hypertension,Valley Health,Low,Cardiac,2024-04-09,2,8648.73
+100950,Jordan,Jones,1970-07-13,I10,Hypertension,City Hospital,High,Cardiac,2024-07-01,3,12874.42
+100951,Sam,Wilson,2000-01-23,J10,Influenza,City Hospital,Medium,General,2025-07-25,14,11458.58
+100952,Jane,Wilson,1994-09-11,J10,Influenza,City Hospital,High,General,2023-08-04,3,9633.93
+100953,Maria,Garcia,1954-02-01,I10,Hypertension,Valley Health,High,Cardiac,2025-10-17,12,13122.14
+100954,Alex,Garcia,1970-01-07,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-06-18,7,11653.68
+100955,John,Brown,1982-06-30,I10,Hypertension,Metro Clinic,High,Cardiac,2023-12-17,2,4357.23
+100956,Taylor,Garcia,1996-06-20,E11,Type 2 Diabetes,Regional Medical Center,High,Endocrinology,2025-05-13,13,3808.64
+100957,Taylor,Miller,1976-09-20,J45,Asthma,Metro Clinic,Low,Pulmonary,2025-06-25,3,11667.2
+100958,Sam,Johnson,1947-08-10,I10,Hypertension,Metro Clinic,Medium,Cardiac,2023-12-03,7,1391.29
+100959,John,Williams,1991-07-19,J10,Influenza,Metro Clinic,Medium,General,2025-04-03,11,10661.46
+100960,Chris,Garcia,1970-11-16,J10,Influenza,Metro Clinic,High,General,2023-10-28,12,6357.1
+100961,Maria,Lopez,1996-01-06,K21,GERD,Valley Health,High,Gastroenterology,2024-12-08,13,11832.66
+100962,Taylor,Brown,1967-01-19,J10,Influenza,City Hospital,High,General,2024-11-16,7,11013.93
+100963,Alex,Lopez,1988-07-07,I10,Hypertension,Regional Medical Center,Low,Cardiac,2025-11-13,9,5027.66
+100964,Pat,Williams,1942-02-06,J10,Influenza,Metro Clinic,Low,General,2024-09-14,12,6629.82
+100965,Sam,Johnson,2005-09-01,J10,Influenza,Metro Clinic,Medium,General,2025-11-05,6,2295.29
+100966,Jane,Davis,1966-09-24,K21,GERD,City Hospital,Medium,Gastroenterology,2024-11-25,4,12178.12
+100967,Lee,Wilson,2004-02-11,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2024-09-04,5,10170.37
+100968,Lee,Williams,2004-02-01,J45,Asthma,Regional Medical Center,Low,Pulmonary,2024-11-02,9,8944.35
+100969,Pat,Davis,1948-10-15,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-06-17,2,1401.81
+100970,Alex,Davis,1959-04-09,J45,Asthma,City Hospital,Medium,Pulmonary,2025-12-13,7,9029.47
+100971,Sam,Miller,1963-08-28,K21,GERD,Valley Health,High,Gastroenterology,2025-05-17,8,10490.76
+100972,Jordan,Miller,1954-08-11,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2025-07-26,3,14536.46
+100973,Sam,Lopez,1950-08-04,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-03-08,12,2774.18
+100974,Sam,Garcia,1950-08-27,K21,GERD,Valley Health,Low,Gastroenterology,2023-09-05,6,8790.59
+100975,John,Lopez,1953-10-02,J10,Influenza,Metro Clinic,Medium,General,2025-02-05,5,4762.73
+100976,John,Williams,1952-10-01,K21,GERD,Valley Health,Low,Gastroenterology,2024-09-16,5,3625.93
+100977,Jordan,Smith,1950-12-22,K21,GERD,Metro Clinic,Low,Gastroenterology,2023-04-02,7,7477.06
+100978,Chris,Wilson,1980-08-01,I10,Hypertension,Valley Health,Medium,Cardiac,2023-09-29,13,2508.57
+100979,Jordan,Davis,1999-11-10,J45,Asthma,Regional Medical Center,High,Pulmonary,2024-10-28,2,12097.27
+100980,Lee,Miller,1974-09-27,E11,Type 2 Diabetes,Valley Health,Medium,Endocrinology,2023-04-04,11,13405.63
+100981,Chris,Johnson,1954-11-09,J10,Influenza,Metro Clinic,High,General,2023-09-11,11,8610.62
+100982,Maria,Wilson,1988-08-10,K21,GERD,City Hospital,High,Gastroenterology,2025-12-04,4,11383.1
+100983,Sam,Smith,1950-10-16,K21,GERD,Regional Medical Center,Low,Gastroenterology,2024-07-17,13,3484.17
+100984,Lee,Davis,1947-08-05,K21,GERD,Metro Clinic,Medium,Gastroenterology,2023-04-03,8,12998.63
+100985,John,Garcia,1979-03-17,E11,Type 2 Diabetes,Valley Health,Low,Endocrinology,2025-12-17,6,6039.16
+100986,Jane,Johnson,1948-11-28,K21,GERD,Regional Medical Center,Medium,Gastroenterology,2023-10-22,3,4205.54
+100987,Jane,Williams,1967-07-11,J45,Asthma,Regional Medical Center,Low,Pulmonary,2024-10-28,3,893.98
+100988,John,Jones,1974-12-25,J10,Influenza,Metro Clinic,Low,General,2025-04-25,6,4240.05
+100989,Jane,Smith,1958-03-04,E11,Type 2 Diabetes,Regional Medical Center,Medium,Endocrinology,2025-11-07,13,7814.11
+100990,Jane,Jones,1945-06-09,I10,Hypertension,Valley Health,High,Cardiac,2025-04-13,2,7520.49
+100991,Taylor,Brown,1941-09-02,I10,Hypertension,City Hospital,Low,Cardiac,2023-09-15,5,8739.56
+100992,Jordan,Johnson,1997-01-14,K21,GERD,Regional Medical Center,Low,Gastroenterology,2025-02-03,9,14786.98
+100993,Maria,Lopez,1978-01-06,K21,GERD,Valley Health,Low,Gastroenterology,2023-01-03,14,7237.45
+100994,Lee,Jones,1998-08-03,E11,Type 2 Diabetes,City Hospital,Low,Endocrinology,2025-09-14,5,9169.08
+100995,Taylor,Garcia,1996-09-19,E11,Type 2 Diabetes,Metro Clinic,Low,Endocrinology,2023-11-27,12,8244.29
+100996,Jane,Jones,1948-01-18,J45,Asthma,City Hospital,Low,Pulmonary,2024-07-26,7,3557.33
+100997,Sam,Garcia,2001-03-12,I10,Hypertension,Metro Clinic,High,Cardiac,2025-07-16,5,4065.96
+100998,Pat,Garcia,1958-11-23,J45,Asthma,Metro Clinic,Low,Pulmonary,2023-10-01,11,13872.74
+100999,Lee,Davis,1940-05-20,J10,Influenza,Regional Medical Center,Medium,General,2025-09-28,13,6195.47
